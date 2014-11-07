@@ -172,7 +172,10 @@ Usage
 =====
 
 Applications using OGRP for input or output should define the supported messages as [JSON Schema](http://json-schema.org/).
-An example for a PVT application's minimum input data could be:
+
+The schema-definitions now reside in repositories subfolder "schema"
+
+An early example for a PVT application's minimum input data was:
 
 ```JSON
 {
