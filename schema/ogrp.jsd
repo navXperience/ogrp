@@ -1,0 +1,71 @@
+{
+    "id": "http://example.org/pvt-input-schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": "Minimum schema for a PVT application",
+    "type": "object",
+    "properties": {
+        "protocol": { "type": "string" },
+        "id": { "type": "string" },
+        "time_status":  {
+            "enum": [ "UNKNOWN"]
+        },
+        "timestamp": { "type": "number" },
+        "channel_measurements": {
+            "type": "array",
+            "minItems": 1,
+            "items": { 
+                "type": "object" ,
+                "properties": {
+                    "carrier_phase":  { "type": "number" },
+                    "satellite_id": {
+                        "type": "integer",
+                        "minimum": 1
+                    },
+                    "position": {               #optional
+                        "type": "object",
+                        "properties": {
+                            "x": { "type": "number" },
+                            "y": { "type": "number" },
+                            "z": { "type": "number" }
+                        }
+                    },
+                    "channel_state":{ "enum" : ["IDLE" , "SEARCHING" , "PULL_IN" , "LOCKED" , "SYNCED"]},
+                    "channel_number":{ "type" : "integer" , "minimum" : 0 },
+                    "gnss": { "enum": [ "GPS" , "GALILEO" , "GLONASS" , "SBAS" ]},
+                    "signal_type": { "enum": ["L1CA" , "L5I" , "E5aI" ]},
+                    "doppler": { "type" : "number" }, #  (Hz)
+                    "locktime": { "type" : "number" }, # (seconds)
+                    "snr": { "type" : "number" }, #  Signal Noise Ratio
+
+                    "pseudorange": {
+                        "type": "number"
+                    }
+                },
+                "required" : ["carrier_phase","satellite_id"],
+                "additionalProperties": false
+
+            },
+            "uniqueItems": true
+        },
+        "satellites": {
+            "type": "object",
+            "properties": {
+                "satellite_id": {
+                    "type": "integer",
+                    "minimum": 1
+                },
+                "position": {
+                    "type": "object",
+                    "properties": {
+                        "x": { "type": "number" },
+                        "y": { "type": "number" },
+                        "z": { "type": "number" }
+                    }
+                }
+            }
+        }
+    },
+    "required" : ["id","timestamp"],
+    "additionalProperties": false
+}
+
