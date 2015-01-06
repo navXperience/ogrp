@@ -4,12 +4,15 @@
     "description": "Minimum schema for a PVT application",
     "type": "object",
     "properties": {
-        "protocol": { "type": "string" },
+        "protocol":  {
+            "enum": [ "OGRP1"]
+        },
         "id": { "type": "string" },
-        "time_status":  {
-            "enum": [ "UNKNOWN"]
+        "time_status":  {   # unbekannt , ?
+            "enum": [ "UNKNOWN",   "FINESTEERING" ]      
         },
         "timestamp": { "type": "number" },
+        "sw_version": { "type": "number" },
         "channel_measurements": {
             "type": "array",
             "minItems": 1,
