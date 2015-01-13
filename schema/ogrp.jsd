@@ -8,11 +8,287 @@
             "enum": [ "OGRP1"]
         },
         "id": { "type": "string" },
-        "time_status":  {   # unbekannt , ?
-            "enum": [ "UNKNOWN",   "FINESTEERING" ]      
+        "time_status":  {  
+            "enum": [ "UNKNOWN",   "FINESTEERING" ] ,
+            "description": "unbekannt, ? ",
         },
         "timestamp": { "type": "number" },
         "sw_version": { "type": "number" },
+        "modul": {"type":"string",
+            "description":"name of assoziated modul"
+        },
+        "settings":{
+            "type": "array",
+            "minItems": 0,
+            "items": { 
+                "type": "object" ,
+                "properties": {
+                    "name": { 
+                        "type": "string",
+                        "description" : "name of setting"
+                    },
+                    "value": { 
+                        "type": "string",
+                        "description" : "value of data as string"
+                    }
+                }
+            }
+        },
+        "glonass_ephemeris":{
+            "type": "array",
+            "minItems": 1,
+            "items": { 
+                "type": "object" ,
+                "properties": {
+                    "satellite_id": {
+                        "type": "integer",
+                        "minimum": 1
+                    },
+                    "freqnum": { 
+                        "type": "integer",
+                        "description" : "frequency channel number (-7...24)"
+                    },
+
+                    "reference_time": { 
+                        "type": "integer",
+                        "description" : "reference time of ephemeris (s)"
+                    },
+                    "healthy": { 
+                        "type": "bool",
+                        "description" : "true means satelitte is healthy, taken from signal"
+                    },
+                    "healthy1": { 
+                        "type": "bool",
+                        "description" : "true means satelitte is healthy, taken from almanac"
+                    },
+                    "healthy2": { 
+                        "type": "bool",
+                        "description" : "true means satelitte is healthy, own diagnostic"
+                    },
+                    "age": { 
+                        "type": "double",
+                        "description" : "Ephemeris , age of data (day)"
+                    },
+                    "coords": { 
+                        "type": "array",
+                        "numItems": 3,
+                        "description" : "Ephemeris ,coordinates (km)",
+                        "items": { "type": "double" }
+
+                    },
+                    "velocities": { 
+                        "type": "array",
+                        "numItems": 3,
+                        "description" : "Ephemeris ,velocities (km/s)",
+                        "items": { "type": "double" }
+
+                    },
+                    "accelarations": { 
+                        "type": "array",
+                        "numItems": 3,
+                        "description" : "Ephemeris ,accelarations (km/s*s)",
+                        "items": { "type": "double" }
+
+                    },
+                    "tau_sys": { 
+                        "type": "double",
+                        "description" : "clock, time correction to glonass time scale (s)"
+                    },
+                    "tau": { 
+                        "type": "double",
+                        "description" : "clock, time correction to sat-clock (s)"
+                    },
+                    "gamma": { 
+                        "type": "double",
+                        "description" : "clock, sat-clock offset rate (s/s)"
+                    }
+
+                },
+
+                "required" : ["satellite_id"],
+                "additionalProperties": false
+
+            },
+            "uniqueItems": true
+        },
+        "gps_ephemeris":{
+            "type": "array",
+            "minItems": 1,
+            "items": { 
+                "type": "object" ,
+                "properties": {
+                    "satellite_id": {
+                        "type": "integer",
+                        "minimum": 1
+                    },
+                    "clock_issue": { 
+                        "type": "integer",
+                        "description" : "Subframe 1,Issue of data, clock "
+                    },
+                    "satellite_health": { 
+                        "type": "integer",
+                        "description" : "Subframe 1,Satelite health"
+                    },
+                    "clock_reference": { 
+                        "type": "integer",
+                        "description" : "Subframe 1,Clock Data reference time (s)"
+                    },
+                    "week_number": { 
+                        "type": "integer",
+                        "description" : "Subframe 1, gps week number"
+                    },
+                    "group_delay": { 
+                        "type": "double",
+                        "description" : "Subframe 1,Estimated group delay differential (s)"
+                    },
+                    "af_2": { 
+                        "type": "double",
+                        "description" : "Subframe 1,polynomal coefficient (s/s*s)"
+                    },
+                    "af_1": { 
+                        "type": "double",
+                        "description" : "Subframe 1,polynomal coefficient (s/s)"
+                    },
+                    "af_0": { 
+                        "type": "double",
+                        "description" : "Subframe 1,polynomal coefficient (s)"
+                    },
+                    "ephemeris_reference": { 
+                        "type": "integer",
+                        "description" : "Subframe 2 and 3,Ephemeris reference time (s)"
+                    },
+                    "ephemeris_issue": { 
+                        "type": "integer",
+                        "description" : "Subframe 2 and 3, Issue of data, ephemeris "
+                    },
+
+                    "root_a": { 
+                        "type": "double",
+                        "description" : "Keplerian, root_a"
+                    },
+                    "ecc": { 
+                        "type": "double",
+                        "description" : "Keplerian, ecc"
+                    },
+                    "m_0": { 
+                        "type": "double",
+                        "description" : "Keplerian, m_0"
+                    },
+                    "omega_0": { 
+                        "type": "double",
+                        "description" : "Keplerian, omega_0"
+                    },
+                    "inc_0": { 
+                        "type": "double",
+                        "description" : "Keplerian, inc_0"
+                    },
+                    "arg_per": { 
+                        "type": "double",
+                        "description" : "Keplerian, arg_per"
+                    },
+                    "deln": { 
+                        "type": "double",
+                        "description" : "Corrections to orbital E, deln"
+                    },
+                    "omega_dot": { 
+                        "type": "double",
+                        "description" : "Corrections to orbital E, omega_dot"
+                    },
+                    "inc_dot": { 
+                        "type": "double",
+                        "description" : "Corrections to orbital E, inc_dot"
+                    },
+                    "crc": { 
+                        "type": "double",
+                        "description" : "Corrections to orbital E, crc"
+                    },
+                    "crs": { 
+                        "type": "double",
+                        "description" : "Corrections to orbital E, crs"
+                    },
+                    "cuc": { 
+                        "type": "double",
+                        "description" : "Corrections to orbital E, cuc"
+                    },
+                    "cus": { 
+                        "type": "double",
+                        "description" : "Corrections to orbital E, cus"
+                    },
+                    "cic": { 
+                        "type": "double",
+                        "description" : "Corrections to orbital E, cic"
+                    },
+                    "cis": { 
+                        "type": "double",
+                        "description" : "Corrections to orbital E, cis"
+                    },
+
+
+                },
+
+                "required" : [,"satellite_id"],
+                "additionalProperties": false
+
+            },
+            "uniqueItems": true
+        },
+        "ionosphere":{
+            "type": "array",
+            "minItems": 1,
+            "items": { 
+                "type": "object" ,
+                "properties": {
+                    "amplitude": { 
+                        "type": "array",
+                        "numItems": 4,
+                        "description" : "coefs of cubic equation, amplitude of vertical delay (s .. s/semicircles³)  ",
+                        "items": { "type": "double" }
+
+                    },
+                    "period": { 
+                        "type": "array",
+                        "numItems": 4,
+                        "description" : "coefs of cubic equation, modelperiod (s .. s/semicircles³)  ",
+                        "items": { "type": "double" }
+
+                    },
+
+                },
+
+                "required" : ["amplitude"],
+                "additionalProperties": false
+
+            },
+            "uniqueItems": true
+        },
+        "utc_parameter":{
+            "type": "array",
+            "minItems": 1,
+            "items": { 
+                "type": "object" ,
+                "properties": {
+                    "f_b": { 
+                        "type": "double",
+                        "description" : " polynom constant value (s)  ",
+                    },
+                    "f_a": { 
+                        "type": "double",
+                        "description" : " polynom linear value (s/s)  ",
+                    },
+                    "leap_seconds": { 
+                        "type": "integer",
+                        "description" : " delta leap seconds ",
+                    },
+
+                },
+
+                "required" : ["leap_seconds"],
+                "additionalProperties": false
+
+            },
+            "uniqueItems": true
+        },
+
         "channel_measurements": {
             "type": "array",
             "minItems": 1,
@@ -25,27 +301,34 @@
                         "type": "integer",
                         "minimum": 1
                     },
-                    "position": {               #optional
+                    "position": {              
                         "type": "object",
                         "properties": {
                             "x": { "type": "number" },
                             "y": { "type": "number" },
                             "z": { "type": "number" }
-                        }
+                        },
+                        "description": "optional"
                     },
                     "channel_state":{ "enum" : ["IDLE" , "SEARCHING" , "PULL_IN" , "LOCKED" , "SYNCED"]},
                     "channel_number":{ "type" : "integer" , "minimum" : 0 },
                     "gnss": { "enum": [ "GPS" , "GALILEO" , "GLONASS" , "SBAS" ]},
                     "signal_type": { "enum": ["L1CA" , "L5I" , "E5aI" ]},
-                    "doppler": { "type" : "number" }, #  (Hz)
-                    "locktime": { "type" : "number" }, # (seconds)
-                    "snr": { "type" : "number" }, #  Signal Noise Ratio
+                    "doppler": { "type" : "number",
+                        "description": "(Hz)"
+                     },  
+                    "locktime": { "type" : "number",
+                        "description": "(seconds)"
+                     },
+                    "snr": { "type" : "number", 
+                        "description": "Signal Noise Ratio"
+                    }, 
 
                     "pseudorange": {
                         "type": "number"
                     }
                 },
-                "required" : ["carrier_phase","satellite_id"],
+                "required" : ["carrier_phase","satellite_id","gnss"],
                 "additionalProperties": false
 
             },
