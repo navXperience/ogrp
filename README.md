@@ -1,2 +1,2 @@
 # ogrp
-the open gnns protocol
+the Open Gnns Receiver Protocol
