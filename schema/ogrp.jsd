@@ -30,6 +30,14 @@
                     "value": { 
                         "type": "string",
                         "description" : "value of data as string"
+                    },
+                    "type": { 
+                        "type": "string",
+                        "description" : "string with typename or array with enumvalues as string"
+                    },
+                    "remark": { 
+                        "type": "string",
+                        "description" : "its a description but desription is a reserved word when using schema"
                     }
                 }
             }
@@ -53,53 +61,58 @@
                         "type": "integer",
                         "description" : "reference time of ephemeris (s)"
                     },
+                    "reference_day": { 
+                        "type": "integer",
+                        "description" : "day of reference time of ephemeris (s)"
+                    },
+
                     "healthy": { 
-                        "type": "bool",
+                        "type": "boolean",
                         "description" : "true means satelitte is healthy, taken from signal"
                     },
                     "healthy1": { 
-                        "type": "bool",
+                        "type": "boolean",
                         "description" : "true means satelitte is healthy, taken from almanac"
                     },
                     "healthy2": { 
-                        "type": "bool",
+                        "type": "boolean",
                         "description" : "true means satelitte is healthy, own diagnostic"
                     },
                     "age": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Ephemeris , age of data (day)"
                     },
                     "coords": { 
                         "type": "array",
                         "numItems": 3,
                         "description" : "Ephemeris ,coordinates (km)",
-                        "items": { "type": "double" }
+                        "items": { "type": "number" }
 
                     },
                     "velocities": { 
                         "type": "array",
                         "numItems": 3,
                         "description" : "Ephemeris ,velocities (km/s)",
-                        "items": { "type": "double" }
+                        "items": { "type": "number" }
 
                     },
                     "accelarations": { 
                         "type": "array",
                         "numItems": 3,
                         "description" : "Ephemeris ,accelarations (km/s*s)",
-                        "items": { "type": "double" }
+                        "items": { "type": "number" }
 
                     },
                     "tau_sys": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "clock, time correction to glonass time scale (s)"
                     },
                     "tau": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "clock, time correction to sat-clock (s)"
                     },
                     "gamma": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "clock, sat-clock offset rate (s/s)"
                     }
 
@@ -138,19 +151,19 @@
                         "description" : "Subframe 1, gps week number"
                     },
                     "group_delay": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Subframe 1,Estimated group delay differential (s)"
                     },
                     "af_2": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Subframe 1,polynomal coefficient (s/s*s)"
                     },
                     "af_1": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Subframe 1,polynomal coefficient (s/s)"
                     },
                     "af_0": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Subframe 1,polynomal coefficient (s)"
                     },
                     "ephemeris_reference": { 
@@ -163,63 +176,63 @@
                     },
 
                     "root_a": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Keplerian, root_a"
                     },
                     "ecc": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Keplerian, ecc"
                     },
                     "m_0": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Keplerian, m_0"
                     },
                     "omega_0": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Keplerian, omega_0"
                     },
                     "inc_0": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Keplerian, inc_0"
                     },
                     "arg_per": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Keplerian, arg_per"
                     },
                     "deln": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Corrections to orbital E, deln"
                     },
                     "omega_dot": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Corrections to orbital E, omega_dot"
                     },
                     "inc_dot": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Corrections to orbital E, inc_dot"
                     },
                     "crc": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Corrections to orbital E, crc"
                     },
                     "crs": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Corrections to orbital E, crs"
                     },
                     "cuc": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Corrections to orbital E, cuc"
                     },
                     "cus": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Corrections to orbital E, cus"
                     },
                     "cic": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Corrections to orbital E, cic"
                     },
                     "cis": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : "Corrections to orbital E, cis"
                     },
 
@@ -242,14 +255,14 @@
                         "type": "array",
                         "numItems": 4,
                         "description" : "coefs of cubic equation, amplitude of vertical delay (s .. s/semicircles³)  ",
-                        "items": { "type": "double" }
+                        "items": { "type": "number" }
 
                     },
                     "period": { 
                         "type": "array",
                         "numItems": 4,
                         "description" : "coefs of cubic equation, modelperiod (s .. s/semicircles³)  ",
-                        "items": { "type": "double" }
+                        "items": { "type": "number" }
 
                     },
 
@@ -268,11 +281,11 @@
                 "type": "object" ,
                 "properties": {
                     "f_b": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : " polynom constant value (s)  ",
                     },
                     "f_a": { 
-                        "type": "double",
+                        "type": "number",
                         "description" : " polynom linear value (s/s)  ",
                     },
                     "leap_seconds": { 
@@ -311,9 +324,9 @@
                         "description": "optional"
                     },
                     "channel_state":{ "enum" : ["IDLE" , "SEARCHING" , "PULL_IN" , "LOCKED" , "SYNCED"]},
-                    "channel_number":{ "type" : "integer" , "minimum" : 0 },
+                    "channel_number":{ "type" : "integer" , "minimum" : -7 },
                     "gnss": { "enum": [ "GPS" , "GALILEO" , "GLONASS" , "SBAS" ]},
-                    "signal_type": { "enum": ["L1CA" , "L5I" , "E5aI" ]},
+                    "signal_type": { "enum": ["L1CA" ,"L2CA" , "L5I" , "E5aI", "P1","P2","P5" ]},
                     "doppler": { "type" : "number",
                         "description": "(Hz)"
                      },  
