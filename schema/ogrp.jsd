@@ -1,4 +1,4 @@
-{ 
+{
     "id": "http://example.org/pvt-input-schema#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "description": "Minimum schema for a PVT application",
