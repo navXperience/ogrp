@@ -12,7 +12,9 @@
             "enum": [ "UNKNOWN",   "FINESTEERING" ] ,
             "description": "unbekannt, ? ",
         },
-        "timestamp": { "type": "number" },
+        "timestamp": { "type": "number",
+        		"description": "(s) seconds since 1.1.1970 0:00  ")
+         },
         "sw_version": { "type": "number" },
         "modul": {"type":"string",
             "description":"name of assoziated modul"
@@ -37,7 +39,7 @@
                     },
                     "remark": { 
                         "type": "string",
-                        "description" : "its a description but desription is a reserved word when using schema"
+                        "description" : "its a description but description is a reserved word when using schema"
                     }
                 }
             }
@@ -50,7 +52,9 @@
                 "properties": {
                     "satellite_id": {
                         "type": "integer",
-                        "minimum": 1
+                        "minimum": 1,
+             				"description" : "the satellite Id ()"
+ 
                     },
                     "freqnum": { 
                         "type": "integer",
@@ -63,7 +67,7 @@
                     },
                     "reference_day": { 
                         "type": "integer",
-                        "description" : "day of reference time of ephemeris (s)"
+                        "description" : "day of reference time of ephemeris (day in 4 year block)"
                     },
 
                     "healthy": { 
@@ -80,7 +84,7 @@
                     },
                     "age": { 
                         "type": "number",
-                        "description" : "Ephemeris , age of data (day)"
+                        "description" : "Ephemeris , age of data (days)"
                     },
                     "coords": { 
                         "type": "array",
@@ -132,15 +136,17 @@
                 "properties": {
                     "satellite_id": {
                         "type": "integer",
-                        "minimum": 1
+                        "minimum": 1,
+                        "description" : "the satellite Id ()"
+
                     },
                     "clock_issue": { 
                         "type": "integer",
-                        "description" : "Subframe 1,Issue of data, clock "
+                        "description" : "Subframe 1,Issue of data, clock () ??? "
                     },
                     "satellite_health": { 
                         "type": "integer",
-                        "description" : "Subframe 1,Satelite health"
+                        "description" : "Subframe 1,Satelite health () ???"
                     },
                     "clock_reference": { 
                         "type": "integer",
@@ -148,7 +154,7 @@
                     },
                     "week_number": { 
                         "type": "integer",
-                        "description" : "Subframe 1, gps week number"
+                        "description" : "Subframe 1, gps week number ()"
                     },
                     "group_delay": { 
                         "type": "number",
@@ -172,68 +178,68 @@
                     },
                     "ephemeris_issue": { 
                         "type": "integer",
-                        "description" : "Subframe 2 and 3, Issue of data, ephemeris "
+                        "description" : "Subframe 2 and 3, Issue of data, ephemeris () ???) "
                     },
 
                     "root_a": { 
                         "type": "number",
-                        "description" : "Keplerian, root_a"
+                        "description" : "Keplerian, root_a, ( m ^ 1/2) "
                     },
                     "ecc": { 
                         "type": "number",
-                        "description" : "Keplerian, ecc"
+                        "description" : "Keplerian, ecc ()"
                     },
                     "m_0": { 
                         "type": "number",
-                        "description" : "Keplerian, m_0"
+                        "description" : "Keplerian, m_0 (semi_circles) ???"
                     },
                     "omega_0": { 
                         "type": "number",
-                        "description" : "Keplerian, omega_0"
+                        "description" : "Keplerian, omega_0 (semi_circles) ???"
                     },
                     "inc_0": { 
                         "type": "number",
-                        "description" : "Keplerian, inc_0"
+                        "description" : "Keplerian, inc_0 (semi_circles) ???"
                     },
                     "arg_per": { 
                         "type": "number",
-                        "description" : "Keplerian, arg_per"
+                        "description" : "Keplerian, arg_per (semi_circles) ???"
                     },
                     "deln": { 
                         "type": "number",
-                        "description" : "Corrections to orbital E, deln"
+                        "description" : "Corrections to orbital E, deln (semi_circles/s) ???"
                     },
                     "omega_dot": { 
                         "type": "number",
-                        "description" : "Corrections to orbital E, omega_dot"
+                        "description" : "Corrections to orbital E, omega_dot (semi_circles/s) ???"
                     },
                     "inc_dot": { 
                         "type": "number",
-                        "description" : "Corrections to orbital E, inc_dot"
+                        "description" : "Corrections to orbital E, inc_dot (semi_circles/s) ???"
                     },
                     "crc": { 
                         "type": "number",
-                        "description" : "Corrections to orbital E, crc"
+                        "description" : "Corrections to orbital E, crc (m) ???"
                     },
                     "crs": { 
                         "type": "number",
-                        "description" : "Corrections to orbital E, crs"
+                        "description" : "Corrections to orbital E, crs (m) ???"
                     },
                     "cuc": { 
                         "type": "number",
-                        "description" : "Corrections to orbital E, cuc"
+                        "description" : "Corrections to orbital E, cuc (radian) ???"
                     },
                     "cus": { 
                         "type": "number",
-                        "description" : "Corrections to orbital E, cus"
+                        "description" : "Corrections to orbital E, cus (radian) ???"
                     },
                     "cic": { 
                         "type": "number",
-                        "description" : "Corrections to orbital E, cic"
+                        "description" : "Corrections to orbital E, cic (radian) ???"
                     },
                     "cis": { 
                         "type": "number",
-                        "description" : "Corrections to orbital E, cis"
+                        "description" : "Corrections to orbital E, cis (radian) ???"
                     },
 
 
@@ -290,7 +296,7 @@
                     },
                     "leap_seconds": { 
                         "type": "integer",
-                        "description" : " delta leap seconds ",
+                        "description" : " delta leap seconds ()  ",
                     },
 
                 },
@@ -308,18 +314,33 @@
             "items": { 
                 "type": "object" ,
                 "properties": {
-                    "carrier_phase":  { "type": "number" },
-                    "code_phase":  { "type": "number" },
+                    "carrier_phase":  {
+                       "type": "number" ,
+	                    "description":" (m) ???"
+                    },
+                    "code_phase":  {
+                    	 "type": "number" ,
+	                    "description":"(?) ???"
+                    	 
+                    },
                     "satellite_id": {
                         "type": "integer",
-                        "minimum": 1
+                        "minimum": 1,
+                        "description" : "the satellite Id ()"
+
                     },
                     "position": {              
                         "type": "object",
                         "properties": {
-                            "x": { "type": "number" },
-                            "y": { "type": "number" },
-                            "z": { "type": "number" }
+                            "x": { "type": "number" ,
+                        			"description" : "in wich coordinatesystem (?) ???"
+                                                        },
+                            "y": { "type": "number",
+                        			"description" : "in wich coordinatesystem (?) ???"
+                             },
+                            "z": { "type": "number",
+                        			"description" : "in wich coordinatesystem (?) ???"
+                             }
                         },
                         "description": "optional"
                     },
@@ -327,18 +348,22 @@
                     "channel_number":{ "type" : "integer" , "minimum" : -7 },
                     "gnss": { "enum": [ "GPS" , "GALILEO" , "GLONASS" , "SBAS" ]},
                     "signal_type": { "enum": ["L1CA" ,"L2CA" , "L5I" , "E5aI", "P1","P2","P5" ]},
-                    "doppler": { "type" : "number",
+                    "doppler": { 
+                    		"type" : "number",
                         "description": "(Hz)"
                      },  
-                    "locktime": { "type" : "number",
+                    "locktime": { 
+                    		"type" : "number",
                         "description": "(seconds)"
                      },
-                    "snr": { "type" : "number", 
-                        "description": "Signal Noise Ratio"
+                    "snr": {
+                    		"type" : "number", 
+                        "description": "Signal Noise Ratio ()"
                     }, 
 
                     "pseudorange": {
-                        "type": "number"
+                        "type": "number",
+                        "description":" (meter)"
                     }
                 },
                 "required" : ["carrier_phase","satellite_id","gnss"],
@@ -352,14 +377,21 @@
             "properties": {
                 "satellite_id": {
                     "type": "integer",
-                    "minimum": 1
+                    "minimum": 1,
+                    "description" : "the satellite Id ()"
                 },
                 "position": {
                     "type": "object",
                     "properties": {
-                        "x": { "type": "number" },
-                        "y": { "type": "number" },
-                        "z": { "type": "number" }
+                        "x": { "type": "number" ,
+                        			"description" : "in wich coordinatesystem (?) ???"
+                        },
+                        "y": { "type": "number" ,
+                        			"description" : "in wich coordinatesystem (?) ???"
+                        },
+                        "z": { "type": "number" ,
+                        			"description" : "in wich coordinatesystem (?) ???"
+                        }
                     }
                 }
             }
