@@ -1,0 +1,21 @@
+{
+	"id": "settings",
+	"modul": "Helloworld",
+	"protocol": "OGRP1",
+	"settings": [
+		{
+			"name": "Timeoffset",
+			"remark": "Number of hours to offset. May be negativ ",
+			"type": "number",
+			"value": "2"
+		},
+		{
+			"name": "Demotime",
+			"remark": "the calculated text",
+			"type": "text",
+			"value": "Sun Mar 15 15:11:02 2015
+"
+		}
+	],
+	"timestamp": 0
+}
