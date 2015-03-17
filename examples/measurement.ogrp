@@ -1,3 +1,7088 @@
-// Example OGRP measurement data
-{"protocol":"OGRP1","id":"measurement","channel_measurements":[{"carrier_phase":0.0,"channel_number":0,"channel_state":"IDLE","doppler":1200.0,"gnss":"GPS","locktime":0.0,"pseudorange":20000000.0,"satellite_id":1,"signal_type":"L1CA","snr":32.0},{"carrier_phase":-123.4,"channel_number":1,"channel_state":"LOCKED","doppler":-1100.3,"gnss":"GALILEO","locktime":0.0,"pseudorange":20340000.0,"satellite_id":50,"signal_type":"E5aI","snr":45.5}],"time_status":"UNKNOWN","timestamp":101.0}
-{"protocol":"OGRP1","id":"measurement","channel_measurements":[{"carrier_phase":0.0,"channel_number":0,"channel_state":"IDLE","doppler":1200.0,"gnss":"GPS","locktime":0.0,"pseudorange":20000000.0,"satellite_id":1,"signal_type":"L1CA","snr":32.0},{"carrier_phase":-120.1,"channel_number":1,"channel_state":"LOCKED","doppler":-1104.3,"gnss":"GALILEO","locktime":1.0,"pseudorange":20340000.0,"satellite_id":50,"signal_type":"E5aI","snr":45.5}],"time_status":"UNKNOWN","timestamp":102.0}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 1.085,
+			"channel_number": 3,
+			"doppler": -2668.388,
+			"gnss": "GPS",
+			"locktime": 32.1,
+			"pseudorange": 22292649.38,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 46.5
+		},
+		{
+			"carrier_phase": 1.3155,
+			"channel_number": 3,
+			"doppler": -2668.419,
+			"gnss": "GPS",
+			"locktime": 6.800000000000001,
+			"pseudorange": 22292649.38,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 0.7585000000000001,
+			"channel_number": 3,
+			"doppler": -2079.297,
+			"gnss": "GPS",
+			"locktime": 6.800000000000001,
+			"pseudorange": 22292649.38,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 22.7
+		},
+		{
+			"carrier_phase": 3.775,
+			"channel_number": 6,
+			"doppler": -1833.156,
+			"gnss": "GPS",
+			"locktime": 26.9,
+			"pseudorange": 18501551.2,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 48
+		},
+		{
+			"carrier_phase": 3.8115,
+			"channel_number": 6,
+			"doppler": -1833.192,
+			"gnss": "GPS",
+			"locktime": 19.4,
+			"pseudorange": 18501551.2,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 28.9
+		},
+		{
+			"carrier_phase": 3.156,
+			"channel_number": 6,
+			"doppler": -1428.487,
+			"gnss": "GPS",
+			"locktime": 19.4,
+			"pseudorange": 18501551.2,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 29.9
+		},
+		{
+			"carrier_phase": 1.2105,
+			"channel_number": 15,
+			"doppler": -5237.709,
+			"gnss": "GPS",
+			"locktime": 2.8,
+			"pseudorange": 18549673.46,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 46.9
+		},
+		{
+			"carrier_phase": 1.337,
+			"channel_number": 16,
+			"doppler": 691.846,
+			"gnss": "GPS",
+			"locktime": 32.3,
+			"pseudorange": 21895151.66,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45.1
+		},
+		{
+			"carrier_phase": 1.5675,
+			"channel_number": 16,
+			"doppler": 691.813,
+			"gnss": "GPS",
+			"locktime": 17.3,
+			"pseudorange": 21895151.66,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 24
+		},
+		{
+			"carrier_phase": -1.027,
+			"channel_number": 16,
+			"doppler": 539.0890000000001,
+			"gnss": "GPS",
+			"locktime": 17.3,
+			"pseudorange": 21895151.66,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26.1
+		},
+		{
+			"carrier_phase": -2.1005,
+			"channel_number": 17,
+			"doppler": -2344.757,
+			"gnss": "GPS",
+			"locktime": 30.7,
+			"pseudorange": 21567775.98,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 45.1
+		},
+		{
+			"carrier_phase": -1.869,
+			"channel_number": 17,
+			"doppler": -2344.768,
+			"gnss": "GPS",
+			"locktime": 3.4,
+			"pseudorange": 21567775.98,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 1
+		},
+		{
+			"carrier_phase": -2.0435,
+			"channel_number": 17,
+			"doppler": -1827.082,
+			"gnss": "GPS",
+			"locktime": 3.4,
+			"pseudorange": 21567775.98,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 3.085,
+			"channel_number": 18,
+			"doppler": -5583.837,
+			"gnss": "GPS",
+			"locktime": 26.8,
+			"pseudorange": 19218319.54,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 46.2
+		},
+		{
+			"carrier_phase": 3.314,
+			"channel_number": 18,
+			"doppler": -5583.8,
+			"gnss": "GPS",
+			"locktime": 4.7,
+			"pseudorange": 19218319.54,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 25.4
+		},
+		{
+			"carrier_phase": 1.0275,
+			"channel_number": 18,
+			"doppler": -4351.02,
+			"gnss": "GPS",
+			"locktime": 4.7,
+			"pseudorange": 19218319.54,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 25.9
+		},
+		{
+			"carrier_phase": 3.0565,
+			"channel_number": 19,
+			"doppler": -1119.364,
+			"gnss": "GPS",
+			"locktime": 35.4,
+			"pseudorange": 18085600.2,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 47.7
+		},
+		{
+			"carrier_phase": 3.288,
+			"channel_number": 19,
+			"doppler": -1119.346,
+			"gnss": "GPS",
+			"locktime": 17.3,
+			"pseudorange": 18085600.2,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.5
+		},
+		{
+			"carrier_phase": 0.9505,
+			"channel_number": 19,
+			"doppler": -872.23,
+			"gnss": "GPS",
+			"locktime": 17.3,
+			"pseudorange": 18085600.2,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 29.6
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066238
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 0.973,
+			"channel_number": 3,
+			"doppler": -2668.062,
+			"gnss": "GPS",
+			"locktime": 33.1,
+			"pseudorange": 22292141.74,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 45.8
+		},
+		{
+			"carrier_phase": 1.2025,
+			"channel_number": 3,
+			"doppler": -2668.05,
+			"gnss": "GPS",
+			"locktime": 7.800000000000001,
+			"pseudorange": 22292141.74,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 0.6455,
+			"channel_number": 3,
+			"doppler": -2079.027,
+			"gnss": "GPS",
+			"locktime": 7.800000000000001,
+			"pseudorange": 22292141.74,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 22.7
+		},
+		{
+			"carrier_phase": 3.6455,
+			"channel_number": 6,
+			"doppler": -1832.601,
+			"gnss": "GPS",
+			"locktime": 27.9,
+			"pseudorange": 18501202.54,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 47.7
+		},
+		{
+			"carrier_phase": 3.682,
+			"channel_number": 6,
+			"doppler": -1832.623,
+			"gnss": "GPS",
+			"locktime": 20.3,
+			"pseudorange": 18501202.54,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 28.9
+		},
+		{
+			"carrier_phase": 3.028,
+			"channel_number": 6,
+			"doppler": -1428.037,
+			"gnss": "GPS",
+			"locktime": 20.3,
+			"pseudorange": 18501202.54,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 29.9
+		},
+		{
+			"carrier_phase": 1.6825,
+			"channel_number": 15,
+			"doppler": -5237.504,
+			"gnss": "GPS",
+			"locktime": 3.8,
+			"pseudorange": 18548676.3,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 46.2
+		},
+		{
+			"carrier_phase": 1.3235,
+			"channel_number": 16,
+			"doppler": 691.9010000000001,
+			"gnss": "GPS",
+			"locktime": 33.3,
+			"pseudorange": 21895283.32,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45.4
+		},
+		{
+			"carrier_phase": 1.551,
+			"channel_number": 16,
+			"doppler": 691.818,
+			"gnss": "GPS",
+			"locktime": 18.3,
+			"pseudorange": 21895283.32,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 24
+		},
+		{
+			"carrier_phase": -1.043,
+			"channel_number": 16,
+			"doppler": 539.074,
+			"gnss": "GPS",
+			"locktime": 18.3,
+			"pseudorange": 21895283.32,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26.1
+		},
+		{
+			"carrier_phase": -2.059,
+			"channel_number": 17,
+			"doppler": -2344.204,
+			"gnss": "GPS",
+			"locktime": 31.7,
+			"pseudorange": 21567329.8,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 45.4
+		},
+		{
+			"carrier_phase": -1.8265,
+			"channel_number": 17,
+			"doppler": -2344.139,
+			"gnss": "GPS",
+			"locktime": 4.4,
+			"pseudorange": 21567329.8,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 1
+		},
+		{
+			"carrier_phase": -1.999,
+			"channel_number": 17,
+			"doppler": -1826.616,
+			"gnss": "GPS",
+			"locktime": 4.4,
+			"pseudorange": 21567329.8,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 3.162,
+			"channel_number": 18,
+			"doppler": -5583.421,
+			"gnss": "GPS",
+			"locktime": 27.8,
+			"pseudorange": 19217256.94,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 47.2
+		},
+		{
+			"carrier_phase": 3.3895,
+			"channel_number": 18,
+			"doppler": -5583.485,
+			"gnss": "GPS",
+			"locktime": 5.7,
+			"pseudorange": 19217256.94,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 25.4
+		},
+		{
+			"carrier_phase": 1.1065,
+			"channel_number": 18,
+			"doppler": -4350.813,
+			"gnss": "GPS",
+			"locktime": 5.7,
+			"pseudorange": 19217256.94,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 25.9
+		},
+		{
+			"carrier_phase": 3.206,
+			"channel_number": 19,
+			"doppler": -1118.921,
+			"gnss": "GPS",
+			"locktime": 36.4,
+			"pseudorange": 18085387.06,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 46.2
+		},
+		{
+			"carrier_phase": 3.435,
+			"channel_number": 19,
+			"doppler": -1118.962,
+			"gnss": "GPS",
+			"locktime": 18.3,
+			"pseudorange": 18085387.06,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.5
+		},
+		{
+			"carrier_phase": 1.0995,
+			"channel_number": 19,
+			"doppler": -871.971,
+			"gnss": "GPS",
+			"locktime": 18.3,
+			"pseudorange": 18085387.06,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 29.6
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066239
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 1.3405,
+			"channel_number": 3,
+			"doppler": -2667.28,
+			"gnss": "GPS",
+			"locktime": 34.1,
+			"pseudorange": 22291633.74,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 45.4
+		},
+		{
+			"carrier_phase": 1.5715,
+			"channel_number": 3,
+			"doppler": -2667.271,
+			"gnss": "GPS",
+			"locktime": 8.800000000000001,
+			"pseudorange": 22291633.74,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 1.0145,
+			"channel_number": 3,
+			"doppler": -2078.465,
+			"gnss": "GPS",
+			"locktime": 8.800000000000001,
+			"pseudorange": 22291633.74,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 22.7
+		},
+		{
+			"carrier_phase": 3.6065,
+			"channel_number": 6,
+			"doppler": -1831.783,
+			"gnss": "GPS",
+			"locktime": 28.9,
+			"pseudorange": 18500853.92,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 47.9
+		},
+		{
+			"carrier_phase": 3.643,
+			"channel_number": 6,
+			"doppler": -1831.83,
+			"gnss": "GPS",
+			"locktime": 21.4,
+			"pseudorange": 18500853.92,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.8
+		},
+		{
+			"carrier_phase": 2.989,
+			"channel_number": 6,
+			"doppler": -1427.347,
+			"gnss": "GPS",
+			"locktime": 21.4,
+			"pseudorange": 18500853.92,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 29.9
+		},
+		{
+			"carrier_phase": 2.1785,
+			"channel_number": 15,
+			"doppler": -5237.036,
+			"gnss": "GPS",
+			"locktime": 4.800000000000001,
+			"pseudorange": 18547679.22,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 47.5
+		},
+		{
+			"carrier_phase": 1.2125,
+			"channel_number": 16,
+			"doppler": 692.001,
+			"gnss": "GPS",
+			"locktime": 34.3,
+			"pseudorange": 21895415.1,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45.6
+		},
+		{
+			"carrier_phase": 1.4405,
+			"channel_number": 16,
+			"doppler": 692.005,
+			"gnss": "GPS",
+			"locktime": 19.3,
+			"pseudorange": 21895415.1,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 24
+		},
+		{
+			"carrier_phase": -1.1545,
+			"channel_number": 16,
+			"doppler": 539.22,
+			"gnss": "GPS",
+			"locktime": 19.3,
+			"pseudorange": 21895415.1,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26.1
+		},
+		{
+			"carrier_phase": -2.128,
+			"channel_number": 17,
+			"doppler": -2343.517,
+			"gnss": "GPS",
+			"locktime": 32.7,
+			"pseudorange": 21566883.86,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 45
+		},
+		{
+			"carrier_phase": -1.8965,
+			"channel_number": 17,
+			"doppler": -2343.606,
+			"gnss": "GPS",
+			"locktime": 5.4,
+			"pseudorange": 21566883.86,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 1
+		},
+		{
+			"carrier_phase": -2.0705,
+			"channel_number": 17,
+			"doppler": -1826.151,
+			"gnss": "GPS",
+			"locktime": 5.4,
+			"pseudorange": 21566883.86,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 3.537,
+			"channel_number": 18,
+			"doppler": -5583.248000000001,
+			"gnss": "GPS",
+			"locktime": 28.8,
+			"pseudorange": 19216194.1,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 47.6
+		},
+		{
+			"carrier_phase": 3.765,
+			"channel_number": 18,
+			"doppler": -5583.284000000001,
+			"gnss": "GPS",
+			"locktime": 6.7,
+			"pseudorange": 19216194.1,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 25.4
+		},
+		{
+			"carrier_phase": 1.4825,
+			"channel_number": 18,
+			"doppler": -4350.612,
+			"gnss": "GPS",
+			"locktime": 6.7,
+			"pseudorange": 19216194.1,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 25.9
+		},
+		{
+			"carrier_phase": 2.6955,
+			"channel_number": 19,
+			"doppler": -1118.838,
+			"gnss": "GPS",
+			"locktime": 37.4,
+			"pseudorange": 18085174.66,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 46.5
+		},
+		{
+			"carrier_phase": 2.925,
+			"channel_number": 19,
+			"doppler": -1118.866,
+			"gnss": "GPS",
+			"locktime": 19.3,
+			"pseudorange": 18085174.66,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.5
+		},
+		{
+			"carrier_phase": 0.587,
+			"channel_number": 19,
+			"doppler": -871.847,
+			"gnss": "GPS",
+			"locktime": 19.3,
+			"pseudorange": 18085174.66,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 29.6
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066240
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 1.489,
+			"channel_number": 3,
+			"doppler": -2666.463,
+			"gnss": "GPS",
+			"locktime": 35.1,
+			"pseudorange": 22291126.08,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 45.2
+		},
+		{
+			"carrier_phase": 1.719,
+			"channel_number": 3,
+			"doppler": -2666.385,
+			"gnss": "GPS",
+			"locktime": 9.800000000000001,
+			"pseudorange": 22291126.08,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 1.164,
+			"channel_number": 3,
+			"doppler": -2077.646,
+			"gnss": "GPS",
+			"locktime": 9.800000000000001,
+			"pseudorange": 22291126.08,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 22.7
+		},
+		{
+			"carrier_phase": 3.5875,
+			"channel_number": 6,
+			"doppler": -1831.083,
+			"gnss": "GPS",
+			"locktime": 29.9,
+			"pseudorange": 18500505.4,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 47.3
+		},
+		{
+			"carrier_phase": 3.626,
+			"channel_number": 6,
+			"doppler": -1831.067,
+			"gnss": "GPS",
+			"locktime": 22.4,
+			"pseudorange": 18500505.4,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.8
+		},
+		{
+			"carrier_phase": 2.9725,
+			"channel_number": 6,
+			"doppler": -1426.718,
+			"gnss": "GPS",
+			"locktime": 22.4,
+			"pseudorange": 18500505.4,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 29.9
+		},
+		{
+			"carrier_phase": 2.472,
+			"channel_number": 15,
+			"doppler": -5236.216,
+			"gnss": "GPS",
+			"locktime": 5.800000000000001,
+			"pseudorange": 18546682.44,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 46.6
+		},
+		{
+			"carrier_phase": 1.2975,
+			"channel_number": 16,
+			"doppler": 692.187,
+			"gnss": "GPS",
+			"locktime": 35.3,
+			"pseudorange": 21895546.7,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45.4
+		},
+		{
+			"carrier_phase": 1.5255,
+			"channel_number": 16,
+			"doppler": 692.277,
+			"gnss": "GPS",
+			"locktime": 20.3,
+			"pseudorange": 21895546.7,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 24
+		},
+		{
+			"carrier_phase": -1.0695,
+			"channel_number": 16,
+			"doppler": 539.515,
+			"gnss": "GPS",
+			"locktime": 20.3,
+			"pseudorange": 21895546.7,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26.1
+		},
+		{
+			"carrier_phase": -1.759,
+			"channel_number": 17,
+			"doppler": -2343.113,
+			"gnss": "GPS",
+			"locktime": 33.7,
+			"pseudorange": 21566437.6,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 45.8
+		},
+		{
+			"carrier_phase": -1.532,
+			"channel_number": 17,
+			"doppler": -2343.031,
+			"gnss": "GPS",
+			"locktime": 6.4,
+			"pseudorange": 21566437.6,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 1
+		},
+		{
+			"carrier_phase": -1.7055,
+			"channel_number": 17,
+			"doppler": -1825.717,
+			"gnss": "GPS",
+			"locktime": 6.4,
+			"pseudorange": 21566437.6,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 3.3695,
+			"channel_number": 18,
+			"doppler": -5582.728,
+			"gnss": "GPS",
+			"locktime": 29.8,
+			"pseudorange": 19215131.86,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 46.7
+		},
+		{
+			"carrier_phase": 3.597,
+			"channel_number": 18,
+			"doppler": -5582.671,
+			"gnss": "GPS",
+			"locktime": 7.7,
+			"pseudorange": 19215131.86,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 25.4
+		},
+		{
+			"carrier_phase": 1.3135,
+			"channel_number": 18,
+			"doppler": -4350.101,
+			"gnss": "GPS",
+			"locktime": 7.7,
+			"pseudorange": 19215131.86,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 25.9
+		},
+		{
+			"carrier_phase": 2.478,
+			"channel_number": 19,
+			"doppler": -1118.18,
+			"gnss": "GPS",
+			"locktime": 38.40000000000001,
+			"pseudorange": 18084962.04,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 46.2
+		},
+		{
+			"carrier_phase": 2.706,
+			"channel_number": 19,
+			"doppler": -1118.187,
+			"gnss": "GPS",
+			"locktime": 20.3,
+			"pseudorange": 18084962.04,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.5
+		},
+		{
+			"carrier_phase": 0.3685,
+			"channel_number": 19,
+			"doppler": -871.251,
+			"gnss": "GPS",
+			"locktime": 20.3,
+			"pseudorange": 18084962.04,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 29.6
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066241
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 1.219,
+			"channel_number": 3,
+			"doppler": -2666.193,
+			"gnss": "GPS",
+			"locktime": 36.1,
+			"pseudorange": 22290618.96,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 45.1
+		},
+		{
+			"carrier_phase": 1.4495,
+			"channel_number": 3,
+			"doppler": -2666.204,
+			"gnss": "GPS",
+			"locktime": 10.8,
+			"pseudorange": 22290618.96,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 0.894,
+			"channel_number": 3,
+			"doppler": -2077.607,
+			"gnss": "GPS",
+			"locktime": 10.8,
+			"pseudorange": 22290618.96,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 22.7
+		},
+		{
+			"carrier_phase": 3.864,
+			"channel_number": 6,
+			"doppler": -1830.392,
+			"gnss": "GPS",
+			"locktime": 30.9,
+			"pseudorange": 18500156.72,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 47.1
+		},
+		{
+			"carrier_phase": 3.902,
+			"channel_number": 6,
+			"doppler": -1830.413,
+			"gnss": "GPS",
+			"locktime": 23.4,
+			"pseudorange": 18500156.72,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.8
+		},
+		{
+			"carrier_phase": 3.249,
+			"channel_number": 6,
+			"doppler": -1426.245,
+			"gnss": "GPS",
+			"locktime": 23.4,
+			"pseudorange": 18500156.72,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 29.9
+		},
+		{
+			"carrier_phase": 2.475,
+			"channel_number": 15,
+			"doppler": -5235.575,
+			"gnss": "GPS",
+			"locktime": 6.800000000000001,
+			"pseudorange": 18545686.06,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 46.9
+		},
+		{
+			"carrier_phase": 0.97,
+			"channel_number": 16,
+			"doppler": 692.172,
+			"gnss": "GPS",
+			"locktime": 36.3,
+			"pseudorange": 21895678.74,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45.2
+		},
+		{
+			"carrier_phase": 1.201,
+			"channel_number": 16,
+			"doppler": 692.2520000000001,
+			"gnss": "GPS",
+			"locktime": 21.3,
+			"pseudorange": 21895678.74,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 24
+		},
+		{
+			"carrier_phase": -1.3955,
+			"channel_number": 16,
+			"doppler": 539.3630000000001,
+			"gnss": "GPS",
+			"locktime": 21.3,
+			"pseudorange": 21895678.74,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26.1
+		},
+		{
+			"carrier_phase": -1.2815,
+			"channel_number": 17,
+			"doppler": -2342.411,
+			"gnss": "GPS",
+			"locktime": 34.7,
+			"pseudorange": 21565991.36,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 46.7
+		},
+		{
+			"carrier_phase": -1.054,
+			"channel_number": 17,
+			"doppler": -2342.337,
+			"gnss": "GPS",
+			"locktime": 7.4,
+			"pseudorange": 21565991.36,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": -1.229,
+			"channel_number": 17,
+			"doppler": -1825.24,
+			"gnss": "GPS",
+			"locktime": 7.4,
+			"pseudorange": 21565991.36,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 3.2625,
+			"channel_number": 18,
+			"doppler": -5582.629,
+			"gnss": "GPS",
+			"locktime": 30.8,
+			"pseudorange": 19214069.62,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 46.6
+		},
+		{
+			"carrier_phase": 3.4875,
+			"channel_number": 18,
+			"doppler": -5582.674,
+			"gnss": "GPS",
+			"locktime": 8.700000000000001,
+			"pseudorange": 19214069.62,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 25.4
+		},
+		{
+			"carrier_phase": 1.206,
+			"channel_number": 18,
+			"doppler": -4350.108,
+			"gnss": "GPS",
+			"locktime": 8.700000000000001,
+			"pseudorange": 19214069.62,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 25.9
+		},
+		{
+			"carrier_phase": 2.559,
+			"channel_number": 19,
+			"doppler": -1117.826,
+			"gnss": "GPS",
+			"locktime": 39.40000000000001,
+			"pseudorange": 18084749.2,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 46
+		},
+		{
+			"carrier_phase": 2.7895,
+			"channel_number": 19,
+			"doppler": -1117.827,
+			"gnss": "GPS",
+			"locktime": 21.3,
+			"pseudorange": 18084749.2,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.5
+		},
+		{
+			"carrier_phase": 0.4505,
+			"channel_number": 19,
+			"doppler": -871.032,
+			"gnss": "GPS",
+			"locktime": 21.3,
+			"pseudorange": 18084749.2,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 29.6
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066242
+}
+{
+	"gps_ephemeris": [
+		{
+			"af_0": 0,
+			"af_1": 0,
+			"af_2": 0,
+			"arg_per": 5.108150895399857e-260,
+			"cic": 0,
+			"cis": 0,
+			"clock_issue": 0,
+			"clock_reference": 345600,
+			"crc": 0,
+			"crs": 0,
+			"cuc": 0,
+			"cus": 0,
+			"deln": 0,
+			"ecc": 0,
+			"ephemeris_issue": 0,
+			"ephemeris_reference": 345600,
+			"group_delay": 0,
+			"inc_0": -6.070402789286977e+171,
+			"inc_dot": 0,
+			"m_0": 9.18288779810776e+48,
+			"omega_0": 3.406122390806164e-19,
+			"omega_dot": 0,
+			"root_a": 5.839925398210751e+194,
+			"satellite_health": 0,
+			"satellite_id": 11,
+			"week_number": 801
+		}
+	],
+	"id": "gps_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066242
+}
+{
+	"gps_ephemeris": [
+		{
+			"af_0": 0,
+			"af_1": 0,
+			"af_2": 0,
+			"arg_per": -9.797065212851571e+290,
+			"cic": 0,
+			"cis": 0,
+			"clock_issue": 0,
+			"clock_reference": 345600,
+			"crc": 0,
+			"crs": 0,
+			"cuc": 0,
+			"cus": 0,
+			"deln": 0,
+			"ecc": 0,
+			"ephemeris_issue": 0,
+			"ephemeris_reference": 345600,
+			"group_delay": 0,
+			"inc_0": -6.070402789286977e+171,
+			"inc_dot": 0,
+			"m_0": 7.275436738719518e+77,
+			"omega_0": -8.757488422249483e+42,
+			"omega_dot": 0,
+			"root_a": 5.839925398210751e+194,
+			"satellite_health": 0,
+			"satellite_id": 22,
+			"week_number": 801
+		}
+	],
+	"id": "gps_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066242
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 1.6875,
+			"channel_number": 3,
+			"doppler": -2665.411,
+			"gnss": "GPS",
+			"locktime": 37.1,
+			"pseudorange": 24988247.9,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 45.4
+		},
+		{
+			"carrier_phase": 1.917,
+			"channel_number": 3,
+			"doppler": -2665.405,
+			"gnss": "GPS",
+			"locktime": 11.8,
+			"pseudorange": 24988247.9,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 1.36,
+			"channel_number": 3,
+			"doppler": -2076.989,
+			"gnss": "GPS",
+			"locktime": 11.8,
+			"pseudorange": 24988247.9,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 22.7
+		},
+		{
+			"carrier_phase": 3.793,
+			"channel_number": 6,
+			"doppler": -1829.859,
+			"gnss": "GPS",
+			"locktime": 31.9,
+			"pseudorange": 21197943.76,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 47.9
+		},
+		{
+			"carrier_phase": 3.8325,
+			"channel_number": 6,
+			"doppler": -1829.832,
+			"gnss": "GPS",
+			"locktime": 24.3,
+			"pseudorange": 21197943.76,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.8
+		},
+		{
+			"carrier_phase": 3.1765,
+			"channel_number": 6,
+			"doppler": -1425.842,
+			"gnss": "GPS",
+			"locktime": 24.3,
+			"pseudorange": 21197943.76,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 29.7
+		},
+		{
+			"carrier_phase": 3.0325,
+			"channel_number": 15,
+			"doppler": -5235.271,
+			"gnss": "GPS",
+			"locktime": 7.800000000000001,
+			"pseudorange": 21242830.3,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 48
+		},
+		{
+			"carrier_phase": 3.0715,
+			"channel_number": 15,
+			"doppler": -5235.286,
+			"gnss": "GPS",
+			"locktime": 0.4,
+			"pseudorange": 21242830.3,
+			"satellite_id": 5,
+			"signal_type": "P1",
+			"snr": 1
+		},
+		{
+			"carrier_phase": 1.884,
+			"channel_number": 15,
+			"doppler": -4079.48,
+			"gnss": "GPS",
+			"locktime": 0.5,
+			"pseudorange": 21242830.3,
+			"satellite_id": 5,
+			"signal_type": "P2",
+			"snr": 1
+		},
+		{
+			"carrier_phase": 1.1135,
+			"channel_number": 16,
+			"doppler": 692.4590000000001,
+			"gnss": "GPS",
+			"locktime": 37.3,
+			"pseudorange": 24593941.26,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45.8
+		},
+		{
+			"carrier_phase": 1.3445,
+			"channel_number": 16,
+			"doppler": 692.4450000000001,
+			"gnss": "GPS",
+			"locktime": 22.3,
+			"pseudorange": 24593941.26,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 24
+		},
+		{
+			"carrier_phase": -1.2535,
+			"channel_number": 16,
+			"doppler": 539.599,
+			"gnss": "GPS",
+			"locktime": 22.3,
+			"pseudorange": 24593941.26,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26.1
+		},
+		{
+			"carrier_phase": -1.357,
+			"channel_number": 17,
+			"doppler": -2341.503,
+			"gnss": "GPS",
+			"locktime": 35.7,
+			"pseudorange": 24263681.92,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 45.7
+		},
+		{
+			"carrier_phase": -1.125,
+			"channel_number": 17,
+			"doppler": -2341.498,
+			"gnss": "GPS",
+			"locktime": 8.4,
+			"pseudorange": 24263681.92,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": -1.3005,
+			"channel_number": 17,
+			"doppler": -1824.576,
+			"gnss": "GPS",
+			"locktime": 8.4,
+			"pseudorange": 24263681.92,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 2.8685,
+			"channel_number": 18,
+			"doppler": -5582.176,
+			"gnss": "GPS",
+			"locktime": 31.8,
+			"pseudorange": 21911149.4,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 46.1
+		},
+		{
+			"carrier_phase": 3.092,
+			"channel_number": 18,
+			"doppler": -5582.123000000001,
+			"gnss": "GPS",
+			"locktime": 9.700000000000001,
+			"pseudorange": 21911149.4,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 25.4
+		},
+		{
+			"carrier_phase": 0.8105,
+			"channel_number": 18,
+			"doppler": -4349.755,
+			"gnss": "GPS",
+			"locktime": 9.700000000000001,
+			"pseudorange": 21911149.4,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 27.2
+		},
+		{
+			"carrier_phase": 3.127,
+			"channel_number": 19,
+			"doppler": -1117.527,
+			"gnss": "GPS",
+			"locktime": 40.40000000000001,
+			"pseudorange": 20782669.98,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 47.5
+		},
+		{
+			"carrier_phase": 3.354,
+			"channel_number": 19,
+			"doppler": -1117.556,
+			"gnss": "GPS",
+			"locktime": 22.3,
+			"pseudorange": 20782669.98,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.5
+		},
+		{
+			"carrier_phase": 1.017,
+			"channel_number": 19,
+			"doppler": -870.838,
+			"gnss": "GPS",
+			"locktime": 22.3,
+			"pseudorange": 20782669.98,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 29.6
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066243
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 1.3195,
+			"channel_number": 3,
+			"doppler": -2664.611,
+			"gnss": "GPS",
+			"locktime": 38.1,
+			"pseudorange": 24987741.1,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 44.4
+		},
+		{
+			"carrier_phase": 1.5465,
+			"channel_number": 3,
+			"doppler": -2664.558,
+			"gnss": "GPS",
+			"locktime": 12.8,
+			"pseudorange": 24987741.1,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 0.9885,
+			"channel_number": 3,
+			"doppler": -2076.237,
+			"gnss": "GPS",
+			"locktime": 12.8,
+			"pseudorange": 24987741.1,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 22.7
+		},
+		{
+			"carrier_phase": 3.625,
+			"channel_number": 6,
+			"doppler": -1829.364,
+			"gnss": "GPS",
+			"locktime": 32.9,
+			"pseudorange": 21197595.76,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 47.9
+		},
+		{
+			"carrier_phase": 3.6615,
+			"channel_number": 6,
+			"doppler": -1829.308,
+			"gnss": "GPS",
+			"locktime": 25.3,
+			"pseudorange": 21197595.76,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.8
+		},
+		{
+			"carrier_phase": 3.006,
+			"channel_number": 6,
+			"doppler": -1425.453,
+			"gnss": "GPS",
+			"locktime": 25.3,
+			"pseudorange": 21197595.76,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 29.7
+		},
+		{
+			"carrier_phase": 2.9085,
+			"channel_number": 15,
+			"doppler": -5235.203,
+			"gnss": "GPS",
+			"locktime": 8.800000000000001,
+			"pseudorange": 21241834.22,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 46.5
+		},
+		{
+			"carrier_phase": 2.948,
+			"channel_number": 15,
+			"doppler": -5235.190000000001,
+			"gnss": "GPS",
+			"locktime": 1.4,
+			"pseudorange": 21241834.22,
+			"satellite_id": 5,
+			"signal_type": "P1",
+			"snr": 1
+		},
+		{
+			"carrier_phase": 1.762,
+			"channel_number": 15,
+			"doppler": -4079.435,
+			"gnss": "GPS",
+			"locktime": 1.5,
+			"pseudorange": 21241834.22,
+			"satellite_id": 5,
+			"signal_type": "P2",
+			"snr": 1
+		},
+		{
+			"carrier_phase": 1.332,
+			"channel_number": 16,
+			"doppler": 692.364,
+			"gnss": "GPS",
+			"locktime": 38.3,
+			"pseudorange": 24594072.78,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45.1
+		},
+		{
+			"carrier_phase": 1.563,
+			"channel_number": 16,
+			"doppler": 692.3770000000001,
+			"gnss": "GPS",
+			"locktime": 23.3,
+			"pseudorange": 24594072.78,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 26.4
+		},
+		{
+			"carrier_phase": -1.035,
+			"channel_number": 16,
+			"doppler": 539.503,
+			"gnss": "GPS",
+			"locktime": 23.3,
+			"pseudorange": 24594072.78,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26.1
+		},
+		{
+			"carrier_phase": -0.9925,
+			"channel_number": 17,
+			"doppler": -2341.008,
+			"gnss": "GPS",
+			"locktime": 36.7,
+			"pseudorange": 24263236.02,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 45.2
+		},
+		{
+			"carrier_phase": -0.762,
+			"channel_number": 17,
+			"doppler": -2341.022,
+			"gnss": "GPS",
+			"locktime": 9.4,
+			"pseudorange": 24263236.02,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": -0.9365,
+			"channel_number": 17,
+			"doppler": -1824.143,
+			"gnss": "GPS",
+			"locktime": 9.4,
+			"pseudorange": 24263236.02,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 2.9565,
+			"channel_number": 18,
+			"doppler": -5581.796,
+			"gnss": "GPS",
+			"locktime": 32.8,
+			"pseudorange": 21910087.06,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 47
+		},
+		{
+			"carrier_phase": 3.1825,
+			"channel_number": 18,
+			"doppler": -5581.825,
+			"gnss": "GPS",
+			"locktime": 10.7,
+			"pseudorange": 21910087.06,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 25.4
+		},
+		{
+			"carrier_phase": 0.898,
+			"channel_number": 18,
+			"doppler": -4349.494,
+			"gnss": "GPS",
+			"locktime": 10.7,
+			"pseudorange": 21910087.06,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 27.2
+		},
+		{
+			"carrier_phase": 3.125,
+			"channel_number": 19,
+			"doppler": -1117.427,
+			"gnss": "GPS",
+			"locktime": 41.40000000000001,
+			"pseudorange": 20782457.36,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 47.8
+		},
+		{
+			"carrier_phase": 3.3505,
+			"channel_number": 19,
+			"doppler": -1117.374,
+			"gnss": "GPS",
+			"locktime": 23.3,
+			"pseudorange": 20782457.36,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.5
+		},
+		{
+			"carrier_phase": 1.0125,
+			"channel_number": 19,
+			"doppler": -870.707,
+			"gnss": "GPS",
+			"locktime": 23.3,
+			"pseudorange": 20782457.36,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 29.6
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066244
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 1.185,
+			"channel_number": 3,
+			"doppler": -2664.364,
+			"gnss": "GPS",
+			"locktime": 39.1,
+			"pseudorange": 24987234.18,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 45.8
+		},
+		{
+			"carrier_phase": 1.414,
+			"channel_number": 3,
+			"doppler": -2664.32,
+			"gnss": "GPS",
+			"locktime": 13.8,
+			"pseudorange": 24987234.18,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 0.8565,
+			"channel_number": 3,
+			"doppler": -2076.099,
+			"gnss": "GPS",
+			"locktime": 13.8,
+			"pseudorange": 24987234.18,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 25.2
+		},
+		{
+			"carrier_phase": 3.8975,
+			"channel_number": 6,
+			"doppler": -1828.835,
+			"gnss": "GPS",
+			"locktime": 33.9,
+			"pseudorange": 21197247.44,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 47.1
+		},
+		{
+			"carrier_phase": 3.935,
+			"channel_number": 6,
+			"doppler": -1828.86,
+			"gnss": "GPS",
+			"locktime": 26.3,
+			"pseudorange": 21197247.44,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.8
+		},
+		{
+			"carrier_phase": 3.2815,
+			"channel_number": 6,
+			"doppler": -1425.08,
+			"gnss": "GPS",
+			"locktime": 26.3,
+			"pseudorange": 21197247.44,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 29.7
+		},
+		{
+			"carrier_phase": 3.1685,
+			"channel_number": 15,
+			"doppler": -5234.475,
+			"gnss": "GPS",
+			"locktime": 9.800000000000001,
+			"pseudorange": 21240837.86,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 47
+		},
+		{
+			"carrier_phase": 3.2045,
+			"channel_number": 15,
+			"doppler": -5234.466,
+			"gnss": "GPS",
+			"locktime": 2.4,
+			"pseudorange": 21240837.86,
+			"satellite_id": 5,
+			"signal_type": "P1",
+			"snr": 1
+		},
+		{
+			"carrier_phase": 2.022,
+			"channel_number": 15,
+			"doppler": -4078.843,
+			"gnss": "GPS",
+			"locktime": 2.5,
+			"pseudorange": 21240837.86,
+			"satellite_id": 5,
+			"signal_type": "P2",
+			"snr": 1
+		},
+		{
+			"carrier_phase": 1.6085,
+			"channel_number": 16,
+			"doppler": 692.472,
+			"gnss": "GPS",
+			"locktime": 39.3,
+			"pseudorange": 24594204.26,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45.2
+		},
+		{
+			"carrier_phase": 1.84,
+			"channel_number": 16,
+			"doppler": 692.439,
+			"gnss": "GPS",
+			"locktime": 24.3,
+			"pseudorange": 24594204.26,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 26.4
+		},
+		{
+			"carrier_phase": -0.757,
+			"channel_number": 16,
+			"doppler": 539.518,
+			"gnss": "GPS",
+			"locktime": 24.3,
+			"pseudorange": 24594204.26,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26.1
+		},
+		{
+			"carrier_phase": -0.9685,
+			"channel_number": 17,
+			"doppler": -2340.376,
+			"gnss": "GPS",
+			"locktime": 37.7,
+			"pseudorange": 24262790.58,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 45.4
+		},
+		{
+			"carrier_phase": -0.7385,
+			"channel_number": 17,
+			"doppler": -2340.381,
+			"gnss": "GPS",
+			"locktime": 10.4,
+			"pseudorange": 24262790.58,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": -0.9135,
+			"channel_number": 17,
+			"doppler": -1823.718,
+			"gnss": "GPS",
+			"locktime": 10.4,
+			"pseudorange": 24262790.58,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 3.058,
+			"channel_number": 18,
+			"doppler": -5581.762,
+			"gnss": "GPS",
+			"locktime": 33.8,
+			"pseudorange": 21909024.76,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 46.3
+		},
+		{
+			"carrier_phase": 3.2835,
+			"channel_number": 18,
+			"doppler": -5581.783,
+			"gnss": "GPS",
+			"locktime": 11.7,
+			"pseudorange": 21909024.76,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 25.4
+		},
+		{
+			"carrier_phase": 1.0005,
+			"channel_number": 18,
+			"doppler": -4349.448,
+			"gnss": "GPS",
+			"locktime": 11.7,
+			"pseudorange": 21909024.76,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 27.2
+		},
+		{
+			"carrier_phase": 3.4755,
+			"channel_number": 19,
+			"doppler": -1116.767,
+			"gnss": "GPS",
+			"locktime": 42.40000000000001,
+			"pseudorange": 20782244.46,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 47.8
+		},
+		{
+			"carrier_phase": 3.702,
+			"channel_number": 19,
+			"doppler": -1116.775,
+			"gnss": "GPS",
+			"locktime": 24.3,
+			"pseudorange": 20782244.46,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.5
+		},
+		{
+			"carrier_phase": 1.366,
+			"channel_number": 19,
+			"doppler": -870.245,
+			"gnss": "GPS",
+			"locktime": 24.3,
+			"pseudorange": 20782244.46,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 29.6
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066245
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 0.87,
+			"channel_number": 3,
+			"doppler": -2663.537,
+			"gnss": "GPS",
+			"locktime": 40.1,
+			"pseudorange": 24986727.56,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 45.6
+		},
+		{
+			"carrier_phase": 1.0995,
+			"channel_number": 3,
+			"doppler": -2663.501,
+			"gnss": "GPS",
+			"locktime": 14.8,
+			"pseudorange": 24986727.56,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 0.5405,
+			"channel_number": 3,
+			"doppler": -2075.377,
+			"gnss": "GPS",
+			"locktime": 14.8,
+			"pseudorange": 24986727.56,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 25.2
+		},
+		{
+			"carrier_phase": 3.899,
+			"channel_number": 6,
+			"doppler": -1828.154,
+			"gnss": "GPS",
+			"locktime": 34.9,
+			"pseudorange": 21196899.52,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 48
+		},
+		{
+			"carrier_phase": 3.9365,
+			"channel_number": 6,
+			"doppler": -1828.103,
+			"gnss": "GPS",
+			"locktime": 27.3,
+			"pseudorange": 21196899.52,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.8
+		},
+		{
+			"carrier_phase": 3.281,
+			"channel_number": 6,
+			"doppler": -1424.523,
+			"gnss": "GPS",
+			"locktime": 27.3,
+			"pseudorange": 21196899.52,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 29.7
+		},
+		{
+			"carrier_phase": 2.8905,
+			"channel_number": 15,
+			"doppler": -5233.645,
+			"gnss": "GPS",
+			"locktime": 10.8,
+			"pseudorange": 21239842.14,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 46.2
+		},
+		{
+			"carrier_phase": 2.926,
+			"channel_number": 15,
+			"doppler": -5233.601,
+			"gnss": "GPS",
+			"locktime": 3.4,
+			"pseudorange": 21239842.14,
+			"satellite_id": 5,
+			"signal_type": "P1",
+			"snr": 1
+		},
+		{
+			"carrier_phase": 1.743,
+			"channel_number": 15,
+			"doppler": -4078.077,
+			"gnss": "GPS",
+			"locktime": 3.5,
+			"pseudorange": 21239842.14,
+			"satellite_id": 5,
+			"signal_type": "P2",
+			"snr": 1
+		},
+		{
+			"carrier_phase": 1.464,
+			"channel_number": 16,
+			"doppler": 692.393,
+			"gnss": "GPS",
+			"locktime": 40.3,
+			"pseudorange": 24594336.18,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45.4
+		},
+		{
+			"carrier_phase": 1.6965,
+			"channel_number": 16,
+			"doppler": 692.4110000000001,
+			"gnss": "GPS",
+			"locktime": 25.3,
+			"pseudorange": 24594336.18,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 26.4
+		},
+		{
+			"carrier_phase": -0.9015,
+			"channel_number": 16,
+			"doppler": 539.553,
+			"gnss": "GPS",
+			"locktime": 25.3,
+			"pseudorange": 24594336.18,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26.1
+		},
+		{
+			"carrier_phase": -0.742,
+			"channel_number": 17,
+			"doppler": -2339.828,
+			"gnss": "GPS",
+			"locktime": 38.7,
+			"pseudorange": 24262345.06,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 46.6
+		},
+		{
+			"carrier_phase": -0.5125,
+			"channel_number": 17,
+			"doppler": -2339.867,
+			"gnss": "GPS",
+			"locktime": 11.4,
+			"pseudorange": 24262345.06,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": -0.6840000000000001,
+			"channel_number": 17,
+			"doppler": -1823.167,
+			"gnss": "GPS",
+			"locktime": 11.4,
+			"pseudorange": 24262345.06,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 3.356,
+			"channel_number": 18,
+			"doppler": -5581.489,
+			"gnss": "GPS",
+			"locktime": 34.8,
+			"pseudorange": 21907962.32,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 46.9
+		},
+		{
+			"carrier_phase": 3.584,
+			"channel_number": 18,
+			"doppler": -5581.503,
+			"gnss": "GPS",
+			"locktime": 12.7,
+			"pseudorange": 21907962.32,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 25.4
+		},
+		{
+			"carrier_phase": 1.3025,
+			"channel_number": 18,
+			"doppler": -4349.156,
+			"gnss": "GPS",
+			"locktime": 12.7,
+			"pseudorange": 21907962.32,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 27.2
+		},
+		{
+			"carrier_phase": 3.322,
+			"channel_number": 19,
+			"doppler": -1116.223,
+			"gnss": "GPS",
+			"locktime": 43.40000000000001,
+			"pseudorange": 20782032.14,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 47.2
+		},
+		{
+			"carrier_phase": 3.549,
+			"channel_number": 19,
+			"doppler": -1116.206,
+			"gnss": "GPS",
+			"locktime": 25.3,
+			"pseudorange": 20782032.14,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.5
+		},
+		{
+			"carrier_phase": 1.2135,
+			"channel_number": 19,
+			"doppler": -869.691,
+			"gnss": "GPS",
+			"locktime": 25.3,
+			"pseudorange": 20782032.14,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 28.4
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066246
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 0.6975,
+			"channel_number": 3,
+			"doppler": -2662.92,
+			"gnss": "GPS",
+			"locktime": 41.1,
+			"pseudorange": 24986220.92,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 44.5
+		},
+		{
+			"carrier_phase": 0.9265,
+			"channel_number": 3,
+			"doppler": -2662.954,
+			"gnss": "GPS",
+			"locktime": 15.8,
+			"pseudorange": 24986220.92,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 0.37,
+			"channel_number": 3,
+			"doppler": -2074.931,
+			"gnss": "GPS",
+			"locktime": 15.8,
+			"pseudorange": 24986220.92,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 25.2
+		},
+		{
+			"carrier_phase": 4.234,
+			"channel_number": 6,
+			"doppler": -1827.336,
+			"gnss": "GPS",
+			"locktime": 35.9,
+			"pseudorange": 21196551.4,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 47.3
+		},
+		{
+			"carrier_phase": 4.272,
+			"channel_number": 6,
+			"doppler": -1827.319,
+			"gnss": "GPS",
+			"locktime": 28.3,
+			"pseudorange": 21196551.4,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.8
+		},
+		{
+			"carrier_phase": 3.618,
+			"channel_number": 6,
+			"doppler": -1423.805,
+			"gnss": "GPS",
+			"locktime": 28.3,
+			"pseudorange": 21196551.4,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 29.7
+		},
+		{
+			"carrier_phase": 2.4915,
+			"channel_number": 15,
+			"doppler": -5233.534000000001,
+			"gnss": "GPS",
+			"locktime": 11.8,
+			"pseudorange": 21238846.64,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 47.6
+		},
+		{
+			"carrier_phase": 2.526,
+			"channel_number": 15,
+			"doppler": -5233.529,
+			"gnss": "GPS",
+			"locktime": 4.4,
+			"pseudorange": 21238846.64,
+			"satellite_id": 5,
+			"signal_type": "P1",
+			"snr": 1
+		},
+		{
+			"carrier_phase": 1.343,
+			"channel_number": 15,
+			"doppler": -4078.026,
+			"gnss": "GPS",
+			"locktime": 4.5,
+			"pseudorange": 21238846.64,
+			"satellite_id": 5,
+			"signal_type": "P2",
+			"snr": 1
+		},
+		{
+			"carrier_phase": 0.9105,
+			"channel_number": 16,
+			"doppler": 692.648,
+			"gnss": "GPS",
+			"locktime": 41.3,
+			"pseudorange": 24594468.54,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45.5
+		},
+		{
+			"carrier_phase": 1.142,
+			"channel_number": 16,
+			"doppler": 692.706,
+			"gnss": "GPS",
+			"locktime": 26.3,
+			"pseudorange": 24594468.54,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 26.4
+		},
+		{
+			"carrier_phase": -1.456,
+			"channel_number": 16,
+			"doppler": 539.841,
+			"gnss": "GPS",
+			"locktime": 26.3,
+			"pseudorange": 24594468.54,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26.4
+		},
+		{
+			"carrier_phase": -0.408,
+			"channel_number": 17,
+			"doppler": -2339.251,
+			"gnss": "GPS",
+			"locktime": 39.7,
+			"pseudorange": 24261899.56,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 45.1
+		},
+		{
+			"carrier_phase": -0.176,
+			"channel_number": 17,
+			"doppler": -2339.232,
+			"gnss": "GPS",
+			"locktime": 12.4,
+			"pseudorange": 24261899.56,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": -0.351,
+			"channel_number": 17,
+			"doppler": -1822.796,
+			"gnss": "GPS",
+			"locktime": 12.4,
+			"pseudorange": 24261899.56,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 3.3785,
+			"channel_number": 18,
+			"doppler": -5581.145,
+			"gnss": "GPS",
+			"locktime": 35.8,
+			"pseudorange": 21906900.22,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 47.7
+		},
+		{
+			"carrier_phase": 3.607,
+			"channel_number": 18,
+			"doppler": -5581.095,
+			"gnss": "GPS",
+			"locktime": 13.7,
+			"pseudorange": 21906900.22,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 25.4
+		},
+		{
+			"carrier_phase": 1.3255,
+			"channel_number": 18,
+			"doppler": -4348.858,
+			"gnss": "GPS",
+			"locktime": 13.7,
+			"pseudorange": 21906900.22,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 27.2
+		},
+		{
+			"carrier_phase": 3.4875,
+			"channel_number": 19,
+			"doppler": -1116.21,
+			"gnss": "GPS",
+			"locktime": 44.40000000000001,
+			"pseudorange": 20781819.58,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 47.9
+		},
+		{
+			"carrier_phase": 3.7135,
+			"channel_number": 19,
+			"doppler": -1116.166,
+			"gnss": "GPS",
+			"locktime": 26.3,
+			"pseudorange": 20781819.58,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 29.5
+		},
+		{
+			"carrier_phase": 1.3785,
+			"channel_number": 19,
+			"doppler": -869.686,
+			"gnss": "GPS",
+			"locktime": 26.3,
+			"pseudorange": 20781819.58,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 28.4
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066247
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 0.5525,
+			"channel_number": 3,
+			"doppler": -2662.27,
+			"gnss": "GPS",
+			"locktime": 42.1,
+			"pseudorange": 24985714.38,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 46
+		},
+		{
+			"carrier_phase": 0.783,
+			"channel_number": 3,
+			"doppler": -2662.245,
+			"gnss": "GPS",
+			"locktime": 16.8,
+			"pseudorange": 24985714.38,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 0.223,
+			"channel_number": 3,
+			"doppler": -2074.559,
+			"gnss": "GPS",
+			"locktime": 16.8,
+			"pseudorange": 24985714.38,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 25.2
+		},
+		{
+			"carrier_phase": 3.919,
+			"channel_number": 6,
+			"doppler": -1826.736,
+			"gnss": "GPS",
+			"locktime": 36.9,
+			"pseudorange": 21196204.06,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 47.6
+		},
+		{
+			"carrier_phase": 3.957,
+			"channel_number": 6,
+			"doppler": -1826.723,
+			"gnss": "GPS",
+			"locktime": 29.3,
+			"pseudorange": 21196204.06,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.8
+		},
+		{
+			"carrier_phase": 3.3025,
+			"channel_number": 6,
+			"doppler": -1423.415,
+			"gnss": "GPS",
+			"locktime": 29.3,
+			"pseudorange": 21196204.06,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 29.7
+		},
+		{
+			"carrier_phase": 2.683,
+			"channel_number": 15,
+			"doppler": -5232.769,
+			"gnss": "GPS",
+			"locktime": 12.8,
+			"pseudorange": 21237850.66,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 46.2
+		},
+		{
+			"carrier_phase": 2.7205,
+			"channel_number": 15,
+			"doppler": -5232.796,
+			"gnss": "GPS",
+			"locktime": 5.4,
+			"pseudorange": 21237850.66,
+			"satellite_id": 5,
+			"signal_type": "P1",
+			"snr": 1
+		},
+		{
+			"carrier_phase": 1.537,
+			"channel_number": 15,
+			"doppler": -4077.532,
+			"gnss": "GPS",
+			"locktime": 5.5,
+			"pseudorange": 21237850.66,
+			"satellite_id": 5,
+			"signal_type": "P2",
+			"snr": 1
+		},
+		{
+			"carrier_phase": 0.6225000000000001,
+			"channel_number": 16,
+			"doppler": 693.033,
+			"gnss": "GPS",
+			"locktime": 42.3,
+			"pseudorange": 24594600.66,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45.1
+		},
+		{
+			"carrier_phase": 0.8545,
+			"channel_number": 16,
+			"doppler": 693.039,
+			"gnss": "GPS",
+			"locktime": 27.3,
+			"pseudorange": 24594600.66,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 26.4
+		},
+		{
+			"carrier_phase": -1.7435,
+			"channel_number": 16,
+			"doppler": 540.058,
+			"gnss": "GPS",
+			"locktime": 27.3,
+			"pseudorange": 24594600.66,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26.4
+		},
+		{
+			"carrier_phase": -0.8025,
+			"channel_number": 17,
+			"doppler": -2338.205,
+			"gnss": "GPS",
+			"locktime": 40.7,
+			"pseudorange": 24261454.92,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 46.7
+		},
+		{
+			"carrier_phase": -0.5695,
+			"channel_number": 17,
+			"doppler": -2338.16,
+			"gnss": "GPS",
+			"locktime": 13.4,
+			"pseudorange": 24261454.92,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": -0.7455000000000001,
+			"channel_number": 17,
+			"doppler": -1822.01,
+			"gnss": "GPS",
+			"locktime": 13.4,
+			"pseudorange": 24261454.92,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 22.5
+		},
+		{
+			"carrier_phase": 3.2465,
+			"channel_number": 18,
+			"doppler": -5580.635,
+			"gnss": "GPS",
+			"locktime": 36.8,
+			"pseudorange": 21905838.34,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 46.4
+		},
+		{
+			"carrier_phase": 3.4745,
+			"channel_number": 18,
+			"doppler": -5580.595,
+			"gnss": "GPS",
+			"locktime": 14.7,
+			"pseudorange": 21905838.34,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 25.4
+		},
+		{
+			"carrier_phase": 1.1925,
+			"channel_number": 18,
+			"doppler": -4348.517,
+			"gnss": "GPS",
+			"locktime": 14.7,
+			"pseudorange": 21905838.34,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 27.2
+		},
+		{
+			"carrier_phase": 3.6585,
+			"channel_number": 19,
+			"doppler": -1115.432,
+			"gnss": "GPS",
+			"locktime": 45.40000000000001,
+			"pseudorange": 20781607.1,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 47.7
+		},
+		{
+			"carrier_phase": 3.8865,
+			"channel_number": 19,
+			"doppler": -1115.414,
+			"gnss": "GPS",
+			"locktime": 27.3,
+			"pseudorange": 20781607.1,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 29.5
+		},
+		{
+			"carrier_phase": 1.5485,
+			"channel_number": 19,
+			"doppler": -869.1610000000001,
+			"gnss": "GPS",
+			"locktime": 27.3,
+			"pseudorange": 20781607.1,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 28.4
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066248
+}
+{
+	"gps_ephemeris": [
+		{
+			"af_0": 0,
+			"af_1": 0,
+			"af_2": 0,
+			"arg_per": 2.290575174765253e-303,
+			"cic": 0,
+			"cis": 0,
+			"clock_issue": 0,
+			"clock_reference": 345600,
+			"crc": 0,
+			"crs": 0,
+			"cuc": 0,
+			"cus": 0,
+			"deln": 0,
+			"ecc": 0,
+			"ephemeris_issue": 0,
+			"ephemeris_reference": 345600,
+			"group_delay": 0,
+			"inc_0": -6.070402789286977e+171,
+			"inc_dot": 0,
+			"m_0": 5.356286989971588e-254,
+			"omega_0": -2.281056999464704e+281,
+			"omega_dot": 0,
+			"root_a": 5.839925398210751e+194,
+			"satellite_health": 0,
+			"satellite_id": 14,
+			"week_number": 801
+		}
+	],
+	"id": "gps_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066248
+}
+{
+	"gps_ephemeris": [
+		{
+			"af_0": 0,
+			"af_1": 0,
+			"af_2": 0,
+			"arg_per": 105414432.43414,
+			"cic": 0,
+			"cis": 0,
+			"clock_issue": 0,
+			"clock_reference": 345600,
+			"crc": 0,
+			"crs": 0,
+			"cuc": 0,
+			"cus": 0,
+			"deln": 0,
+			"ecc": 0,
+			"ephemeris_issue": 0,
+			"ephemeris_reference": 345600,
+			"group_delay": 0,
+			"inc_0": -6.070402789286977e+171,
+			"inc_dot": 0,
+			"m_0": 2.916240023436262e-214,
+			"omega_0": 9.343205013055816e+284,
+			"omega_dot": 0,
+			"root_a": 5.839925398210751e+194,
+			"satellite_health": 0,
+			"satellite_id": 17,
+			"week_number": 801
+		}
+	],
+	"id": "gps_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066248
+}
+{
+	"gps_ephemeris": [
+		{
+			"af_0": 0,
+			"af_1": 0,
+			"af_2": 0,
+			"arg_per": -1.723517117095348e+304,
+			"cic": 0,
+			"cis": 0,
+			"clock_issue": 0,
+			"clock_reference": 345600,
+			"crc": 0,
+			"crs": 0,
+			"cuc": 0,
+			"cus": 0,
+			"deln": 0,
+			"ecc": 0,
+			"ephemeris_issue": 0,
+			"ephemeris_reference": 345600,
+			"group_delay": 0,
+			"inc_0": -6.070402789286977e+171,
+			"inc_dot": 0,
+			"m_0": 6.283189796593102,
+			"omega_0": 4.047094088622384e-231,
+			"omega_dot": 0,
+			"root_a": 5.839925398210751e+194,
+			"satellite_health": 0,
+			"satellite_id": 5,
+			"week_number": 801
+		}
+	],
+	"id": "gps_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066266
+}
+{
+	"gps_ephemeris": [
+		{
+			"af_0": 0,
+			"af_1": 0,
+			"af_2": 0,
+			"arg_per": -1.995372395118659e-262,
+			"cic": 0,
+			"cis": 0,
+			"clock_issue": 0,
+			"clock_reference": 345600,
+			"crc": 0,
+			"crs": 0,
+			"cuc": 0,
+			"cus": 0,
+			"deln": 0,
+			"ecc": 0,
+			"ephemeris_issue": 0,
+			"ephemeris_reference": 345600,
+			"group_delay": 0,
+			"inc_0": -6.070402789286977e+171,
+			"inc_dot": 0,
+			"m_0": 1.783931046792338e+133,
+			"omega_0": 1.846462646227044e-38,
+			"omega_dot": 0,
+			"root_a": 5.839925398210751e+194,
+			"satellite_health": 0,
+			"satellite_id": 12,
+			"week_number": 801
+		}
+	],
+	"id": "gps_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066278
+}
+{
+	"gps_ephemeris": [
+		{
+			"af_0": 0,
+			"af_1": 0,
+			"af_2": 0,
+			"arg_per": -1.395148396620355e-15,
+			"cic": 0,
+			"cis": 0,
+			"clock_issue": 0,
+			"clock_reference": 345600,
+			"crc": 0,
+			"crs": 0,
+			"cuc": 0,
+			"cus": 0,
+			"deln": 0,
+			"ecc": 0,
+			"ephemeris_issue": 0,
+			"ephemeris_reference": 345600,
+			"group_delay": 0,
+			"inc_0": -6.070402789286977e+171,
+			"inc_dot": 0,
+			"m_0": 4.262089567904521e-166,
+			"omega_0": 1.02729674543997e+297,
+			"omega_dot": 0,
+			"root_a": 5.839925398210751e+194,
+			"satellite_health": 0,
+			"satellite_id": 18,
+			"week_number": 801
+		}
+	],
+	"id": "gps_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066278
+}
+{
+	"glonass_ephemeris": [
+		{
+			"accelarations": [
+				0,
+				0,
+				0
+			],
+			"age": 0,
+			"coords": [
+				5.36935876079373e-315,
+				1.596281201521239e-314,
+				6.805648982216397e+38
+			],
+			"freqnum": 0,
+			"gamma": 0,
+			"healthy": true,
+			"healthy2": true,
+			"reference_day": 1096,
+			"reference_time": 9900,
+			"satellite_id": 255,
+			"tau": -0.0005000000819563866,
+			"tau_sys": 1.576796738104657e-314,
+			"velocities": [
+				1.627272605895996,
+				2.640368461608887,
+				-0.6913824081420898
+			]
+		}
+	],
+	"id": "glonass_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066286
+}
+{
+	"glonass_ephemeris": [
+		{
+			"accelarations": [
+				0,
+				0,
+				0
+			],
+			"age": 0,
+			"coords": [
+				5.354689309483364e-315,
+				-3.785769715134619e-270,
+				-9.124883438449998e+192
+			],
+			"freqnum": 1,
+			"gamma": 0,
+			"healthy": true,
+			"healthy1": false,
+			"healthy2": true,
+			"reference_day": 1096,
+			"reference_time": 9900,
+			"satellite_id": 6,
+			"tau": -0.0005000000819563866,
+			"tau_sys": 1.576796738104657e-314,
+			"velocities": [
+				1.004328727722168,
+				-2.063425064086914,
+				-2.463608741760254
+			]
+		}
+	],
+	"id": "glonass_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066286
+}
+{
+	"glonass_ephemeris": [
+		{
+			"accelarations": [
+				0,
+				0,
+				0
+			],
+			"age": 0,
+			"coords": [
+				1.491669217398615e-154,
+				-1.491668506133225e-154,
+				2.00000048302918
+			],
+			"freqnum": 3,
+			"gamma": 0,
+			"healthy": true,
+			"healthy2": true,
+			"reference_day": 1096,
+			"reference_time": 9900,
+			"satellite_id": 255,
+			"tau": -0.0005000000819563866,
+			"tau_sys": 1.576796738104657e-314,
+			"velocities": [
+				-2.909206390380859,
+				0.1205453872680664,
+				-1.394356727600098
+			]
+		}
+	],
+	"id": "glonass_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066286
+}
+{
+	"glonass_ephemeris": [
+		{
+			"accelarations": [
+				0,
+				0,
+				0
+			],
+			"age": 0,
+			"coords": [
+				-3.785767910161472e-270,
+				-5.361950325484844e-315,
+				1.491668506106838e-154
+			],
+			"freqnum": 4,
+			"gamma": 0,
+			"healthy": true,
+			"healthy2": true,
+			"reference_day": 1096,
+			"reference_time": 9900,
+			"satellite_id": 255,
+			"tau": -0.0005000000819563866,
+			"tau_sys": 1.576796738104657e-314,
+			"velocities": [
+				-1.311038017272949,
+				-0.1381511688232422,
+				3.256023406982422
+			]
+		}
+	],
+	"id": "glonass_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066286
+}
+{
+	"glonass_ephemeris": [
+		{
+			"accelarations": [
+				0,
+				0,
+				0
+			],
+			"age": 0,
+			"coords": [
+				-3.105038414364225e+231,
+				1.597077282579464e-314,
+				4.383619756834629e-193
+			],
+			"freqnum": 5,
+			"gamma": 0,
+			"healthy": true,
+			"healthy2": true,
+			"reference_day": 1096,
+			"reference_time": 9900,
+			"satellite_id": 7,
+			"tau": -0.0005000000819563866,
+			"tau_sys": 1.576796738104657e-314,
+			"velocities": [
+				1.539076805114746,
+				-2.751444816589355,
+				0.2598352432250977
+			]
+		}
+	],
+	"id": "glonass_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066286
+}
+{
+	"glonass_ephemeris": [
+		{
+			"accelarations": [
+				0,
+				0,
+				0
+			],
+			"age": 0,
+			"coords": [
+				5.36935876079373e-315,
+				1.596281201521239e-314,
+				6.805648982216397e+38
+			],
+			"freqnum": 0,
+			"gamma": 0,
+			"healthy": true,
+			"healthy1": false,
+			"healthy2": true,
+			"reference_day": 1096,
+			"reference_time": 9900,
+			"satellite_id": 15,
+			"tau": -0.0005000000819563866,
+			"tau_sys": 1.576796738104657e-314,
+			"velocities": [
+				1.627272605895996,
+				2.640368461608887,
+				-0.6913824081420898
+			]
+		}
+	],
+	"id": "glonass_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066309
+}
+{
+	"glonass_ephemeris": [
+		{
+			"accelarations": [
+				0,
+				0,
+				0
+			],
+			"age": 0,
+			"coords": [
+				5.36935876079373e-315,
+				1.596281201521239e-314,
+				6.805648982216397e+38
+			],
+			"freqnum": 0,
+			"gamma": 0,
+			"healthy": true,
+			"healthy1": false,
+			"healthy2": true,
+			"reference_day": 1096,
+			"reference_time": 9900,
+			"satellite_id": 15,
+			"tau": -0.0005000000819563866,
+			"tau_sys": 1.576796738104657e-314,
+			"velocities": [
+				1.627272605895996,
+				2.640368461608887,
+				-0.6913824081420898
+			]
+		}
+	],
+	"id": "glonass_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066316
+}
+{
+	"glonass_ephemeris": [
+		{
+			"accelarations": [
+				0,
+				0,
+				0
+			],
+			"age": 0,
+			"coords": [
+				5.354689309483364e-315,
+				-3.785769715134619e-270,
+				-9.124883438449998e+192
+			],
+			"freqnum": 1,
+			"gamma": 0,
+			"healthy": true,
+			"healthy1": false,
+			"healthy2": true,
+			"reference_day": 1096,
+			"reference_time": 9900,
+			"satellite_id": 6,
+			"tau": -0.0005000000819563866,
+			"tau_sys": 1.576796738104657e-314,
+			"velocities": [
+				1.004328727722168,
+				-2.063425064086914,
+				-2.463608741760254
+			]
+		}
+	],
+	"id": "glonass_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066316
+}
+{
+	"glonass_ephemeris": [
+		{
+			"accelarations": [
+				0,
+				0,
+				0
+			],
+			"age": 0,
+			"coords": [
+				-3.785767910161472e-270,
+				-5.361950325484844e-315,
+				1.491668506106838e-154
+			],
+			"freqnum": 4,
+			"gamma": 0,
+			"healthy": true,
+			"healthy1": false,
+			"healthy2": true,
+			"reference_day": 1096,
+			"reference_time": 9900,
+			"satellite_id": 17,
+			"tau": -0.0005000000819563866,
+			"tau_sys": 1.576796738104657e-314,
+			"velocities": [
+				-1.311038017272949,
+				-0.1381511688232422,
+				3.256023406982422
+			]
+		}
+	],
+	"id": "glonass_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066326
+}
+{
+	"glonass_ephemeris": [
+		{
+			"accelarations": [
+				0,
+				0,
+				0
+			],
+			"age": 0,
+			"coords": [
+				-2.315842343508235e+77,
+				-2.681562232933368e+154,
+				1.727234128167368e-77
+			],
+			"freqnum": 2,
+			"gamma": 0,
+			"healthy": true,
+			"healthy2": true,
+			"reference_day": 1096,
+			"reference_time": 9900,
+			"satellite_id": 255,
+			"tau": -0.0005000000819563866,
+			"tau_sys": 1.576796738104657e-314,
+			"velocities": [
+				-2.891289710998535,
+				-0.02064895629882812,
+				1.447761535644531
+			]
+		}
+	],
+	"id": "glonass_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066346
+}
+{
+	"glonass_ephemeris": [
+		{
+			"accelarations": [
+				0,
+				0,
+				0
+			],
+			"age": 0,
+			"coords": [
+				1.491669217398615e-154,
+				-1.491668506133225e-154,
+				2.00000048302918
+			],
+			"freqnum": 3,
+			"gamma": 0,
+			"healthy": true,
+			"healthy1": false,
+			"healthy2": true,
+			"reference_day": 1096,
+			"reference_time": 9900,
+			"satellite_id": 23,
+			"tau": -0.0005000000819563866,
+			"tau_sys": 1.576796738104657e-314,
+			"velocities": [
+				-2.909206390380859,
+				0.1205453872680664,
+				-1.394356727600098
+			]
+		}
+	],
+	"id": "glonass_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066360
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 4.8865,
+			"channel_number": 0,
+			"doppler": -3891.23,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19254942.66,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 48.9
+		},
+		{
+			"carrier_phase": 5.103,
+			"channel_number": 0,
+			"doppler": -3891.106,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19254942.66,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 15.5
+		},
+		{
+			"carrier_phase": 1.453,
+			"channel_number": 3,
+			"doppler": -2589.119,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25227052.26,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 45.9
+		},
+		{
+			"carrier_phase": 1.6825,
+			"channel_number": 3,
+			"doppler": -2589.108,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25227052.26,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 25.4
+		},
+		{
+			"carrier_phase": 1.123,
+			"channel_number": 3,
+			"doppler": -2017.523,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25227052.26,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 26.5
+		},
+		{
+			"carrier_phase": 2.703,
+			"channel_number": 5,
+			"doppler": 199.23,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508524.36,
+			"satellite_id": 18,
+			"signal_type": "L1CA",
+			"snr": 46.4
+		},
+		{
+			"carrier_phase": 2.9345,
+			"channel_number": 5,
+			"doppler": 199.256,
+			"gnss": "GPS",
+			"locktime": 102.1,
+			"pseudorange": 22508524.36,
+			"satellite_id": 18,
+			"signal_type": "P1",
+			"snr": 28.7
+		},
+		{
+			"carrier_phase": 0.9495,
+			"channel_number": 5,
+			"doppler": 155.235,
+			"gnss": "GPS",
+			"locktime": 102.1,
+			"pseudorange": 22508524.36,
+			"satellite_id": 18,
+			"signal_type": "P2",
+			"snr": 28.7
+		},
+		{
+			"carrier_phase": 3.481,
+			"channel_number": 6,
+			"doppler": -1748.266,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21456202.9,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 47.5
+		},
+		{
+			"carrier_phase": 3.519,
+			"channel_number": 6,
+			"doppler": -1748.302,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21456202.9,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.6
+		},
+		{
+			"carrier_phase": 2.8565,
+			"channel_number": 6,
+			"doppler": -1362.292,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21456202.9,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 28.5
+		},
+		{
+			"carrier_phase": 6.4225,
+			"channel_number": 3,
+			"doppler": 1297.929,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23335913.98,
+			"satellite_id": 23,
+			"signal_type": "L1CA",
+			"snr": 46.2
+		},
+		{
+			"carrier_phase": 6.63,
+			"channel_number": 3,
+			"doppler": 1298.073,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23335913.98,
+			"satellite_id": 23,
+			"signal_type": "P1",
+			"snr": 15.3
+		},
+		{
+			"carrier_phase": 5.0655,
+			"channel_number": 1,
+			"doppler": -210.338,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392916.34,
+			"satellite_id": 6,
+			"signal_type": "L1CA",
+			"snr": 46.5
+		},
+		{
+			"carrier_phase": 5.154,
+			"channel_number": 1,
+			"doppler": -210.48,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392916.34,
+			"satellite_id": 6,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 6.584000000000001,
+			"channel_number": 2,
+			"doppler": -1676.006,
+			"gnss": "GLONASS",
+			"locktime": 72.3,
+			"pseudorange": 19619576.38,
+			"satellite_id": 24,
+			"signal_type": "L1CA",
+			"snr": 49.6
+		},
+		{
+			"carrier_phase": 6.848,
+			"channel_number": 2,
+			"doppler": -1675.956,
+			"gnss": "GLONASS",
+			"locktime": 65.10000000000001,
+			"pseudorange": 19619576.38,
+			"satellite_id": 24,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 0.9445,
+			"channel_number": 14,
+			"doppler": -4688.815000000001,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21262271.34,
+			"satellite_id": 12,
+			"signal_type": "L1CA",
+			"snr": 47
+		},
+		{
+			"carrier_phase": 0.987,
+			"channel_number": 14,
+			"doppler": -4688.76,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21262271.34,
+			"satellite_id": 12,
+			"signal_type": "P1",
+			"snr": 28.1
+		},
+		{
+			"carrier_phase": 0.8965,
+			"channel_number": 14,
+			"doppler": -3653.635,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21262271.34,
+			"satellite_id": 12,
+			"signal_type": "P2",
+			"snr": 28
+		},
+		{
+			"carrier_phase": 3.1315,
+			"channel_number": 15,
+			"doppler": -5170.026,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21421840.26,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 47.7
+		},
+		{
+			"carrier_phase": 3.17,
+			"channel_number": 15,
+			"doppler": -5170.079,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21421840.26,
+			"satellite_id": 5,
+			"signal_type": "P1",
+			"snr": 28.2
+		},
+		{
+			"carrier_phase": 2.0035,
+			"channel_number": 15,
+			"doppler": -4028.638,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21421840.26,
+			"satellite_id": 5,
+			"signal_type": "P2",
+			"snr": 28.3
+		},
+		{
+			"carrier_phase": 0.4395,
+			"channel_number": 16,
+			"doppler": 706.174,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24909969.06,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45.3
+		},
+		{
+			"carrier_phase": 0.673,
+			"channel_number": 16,
+			"doppler": 706.125,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24909969.06,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 26.3
+		},
+		{
+			"carrier_phase": -1.9705,
+			"channel_number": 16,
+			"doppler": 550.2330000000001,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24909969.06,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26
+		},
+		{
+			"carrier_phase": -0.7955,
+			"channel_number": 17,
+			"doppler": -2262.548,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24510033.14,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 45.5
+		},
+		{
+			"carrier_phase": -0.5655,
+			"channel_number": 17,
+			"doppler": -2262.558,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24510033.14,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 26.3
+		},
+		{
+			"carrier_phase": -0.748,
+			"channel_number": 17,
+			"doppler": -1763.026,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24510033.14,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 26.2
+		},
+		{
+			"carrier_phase": 3.013,
+			"channel_number": 18,
+			"doppler": -5544.383,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22081782.44,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 47.7
+		},
+		{
+			"carrier_phase": 3.241,
+			"channel_number": 18,
+			"doppler": -5544.39,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22081782.44,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 28.8
+		},
+		{
+			"carrier_phase": 0.9775,
+			"channel_number": 18,
+			"doppler": -4320.251,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22081782.44,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 29
+		},
+		{
+			"carrier_phase": 3.482,
+			"channel_number": 19,
+			"doppler": -1068.502,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21057089.6,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 46.5
+		},
+		{
+			"carrier_phase": 3.7095,
+			"channel_number": 19,
+			"doppler": -1068.549,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21057089.6,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.4
+		},
+		{
+			"carrier_phase": 1.3635,
+			"channel_number": 19,
+			"doppler": -832.6270000000001,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21057089.6,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 28.5
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066365
+}
+{
+	"glonass_ephemeris": [
+		{
+			"accelarations": [
+				0,
+				0,
+				0
+			],
+			"age": 0,
+			"coords": [
+				-2.315842343508235e+77,
+				-2.681562232933368e+154,
+				1.727234128167368e-77
+			],
+			"freqnum": 2,
+			"gamma": 0,
+			"healthy": true,
+			"healthy1": false,
+			"healthy2": true,
+			"reference_day": 1096,
+			"reference_time": 9900,
+			"satellite_id": 24,
+			"tau": -0.0005000000819563866,
+			"tau_sys": 1.576796738104657e-314,
+			"velocities": [
+				-2.891289710998535,
+				-0.02064895629882812,
+				1.447761535644531
+			]
+		}
+	],
+	"id": "glonass_ephemeris",
+	"protocol": "OGRP1",
+	"timestamp": 1420066365
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 4.8615,
+			"channel_number": 0,
+			"doppler": -3890.994,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19254214.54,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 49.7
+		},
+		{
+			"carrier_phase": 5.0725,
+			"channel_number": 0,
+			"doppler": -3890.99,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19254214.54,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 15.5
+		},
+		{
+			"carrier_phase": 1.245,
+			"channel_number": 3,
+			"doppler": -2588.293,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25226559.9,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 45.8
+		},
+		{
+			"carrier_phase": 1.4755,
+			"channel_number": 3,
+			"doppler": -2588.355,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25226559.9,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 25.4
+		},
+		{
+			"carrier_phase": 0.916,
+			"channel_number": 3,
+			"doppler": -2016.867,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25226559.9,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 26.5
+		},
+		{
+			"carrier_phase": 2.559,
+			"channel_number": 5,
+			"doppler": 199.012,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508562.42,
+			"satellite_id": 18,
+			"signal_type": "L1CA",
+			"snr": 46.9
+		},
+		{
+			"carrier_phase": 2.789,
+			"channel_number": 5,
+			"doppler": 199.059,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508562.42,
+			"satellite_id": 18,
+			"signal_type": "P1",
+			"snr": 28.7
+		},
+		{
+			"carrier_phase": 0.8070000000000001,
+			"channel_number": 5,
+			"doppler": 155.105,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508562.42,
+			"satellite_id": 18,
+			"signal_type": "P2",
+			"snr": 28.7
+		},
+		{
+			"carrier_phase": 3.6225,
+			"channel_number": 6,
+			"doppler": -1747.864,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21455870.12,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 46.5
+		},
+		{
+			"carrier_phase": 3.661,
+			"channel_number": 6,
+			"doppler": -1747.85,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21455870.12,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.6
+		},
+		{
+			"carrier_phase": 2.9965,
+			"channel_number": 6,
+			"doppler": -1361.964,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21455870.12,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 28.5
+		},
+		{
+			"carrier_phase": 6.3045,
+			"channel_number": 3,
+			"doppler": 1297.893,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23336156.78,
+			"satellite_id": 23,
+			"signal_type": "L1CA",
+			"snr": 47.7
+		},
+		{
+			"carrier_phase": 6.508,
+			"channel_number": 3,
+			"doppler": 1297.674,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23336156.78,
+			"satellite_id": 23,
+			"signal_type": "P1",
+			"snr": 15.3
+		},
+		{
+			"carrier_phase": 5.345,
+			"channel_number": 1,
+			"doppler": -209.891,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392876.76,
+			"satellite_id": 6,
+			"signal_type": "L1CA",
+			"snr": 47.8
+		},
+		{
+			"carrier_phase": 5.4305,
+			"channel_number": 1,
+			"doppler": -210.074,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392876.76,
+			"satellite_id": 6,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 6.5555,
+			"channel_number": 2,
+			"doppler": -1675.544,
+			"gnss": "GLONASS",
+			"locktime": 73.3,
+			"pseudorange": 19619263.06,
+			"satellite_id": 24,
+			"signal_type": "L1CA",
+			"snr": 48.1
+		},
+		{
+			"carrier_phase": 6.8155,
+			"channel_number": 2,
+			"doppler": -1675.617,
+			"gnss": "GLONASS",
+			"locktime": 66.10000000000001,
+			"pseudorange": 19619263.06,
+			"satellite_id": 24,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 1.017,
+			"channel_number": 14,
+			"doppler": -4688.315000000001,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21261379.08,
+			"satellite_id": 12,
+			"signal_type": "L1CA",
+			"snr": 47.6
+		},
+		{
+			"carrier_phase": 1.059,
+			"channel_number": 14,
+			"doppler": -4688.205,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21261379.08,
+			"satellite_id": 12,
+			"signal_type": "P1",
+			"snr": 28.1
+		},
+		{
+			"carrier_phase": 0.967,
+			"channel_number": 14,
+			"doppler": -3653.177,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21261379.08,
+			"satellite_id": 12,
+			"signal_type": "P2",
+			"snr": 28
+		},
+		{
+			"carrier_phase": 3.0615,
+			"channel_number": 15,
+			"doppler": -5169.426,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21420856.58,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 46.8
+		},
+		{
+			"carrier_phase": 3.1005,
+			"channel_number": 15,
+			"doppler": -5169.38,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21420856.58,
+			"satellite_id": 5,
+			"signal_type": "P1",
+			"snr": 28.2
+		},
+		{
+			"carrier_phase": 1.933,
+			"channel_number": 15,
+			"doppler": -4028.061,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21420856.58,
+			"satellite_id": 5,
+			"signal_type": "P2",
+			"snr": 28.3
+		},
+		{
+			"carrier_phase": 0.6945,
+			"channel_number": 16,
+			"doppler": 706.274,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910103.18,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45.1
+		},
+		{
+			"carrier_phase": 0.9275,
+			"channel_number": 16,
+			"doppler": 706.2570000000001,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910103.18,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 26.3
+		},
+		{
+			"carrier_phase": -1.7165,
+			"channel_number": 16,
+			"doppler": 550.354,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910103.18,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26
+		},
+		{
+			"carrier_phase": -0.9380000000000001,
+			"channel_number": 17,
+			"doppler": -2261.695,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24509602.82,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 45.2
+		},
+		{
+			"carrier_phase": -0.7075,
+			"channel_number": 17,
+			"doppler": -2261.659,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24509602.82,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 26.3
+		},
+		{
+			"carrier_phase": -0.8895000000000001,
+			"channel_number": 17,
+			"doppler": -1762.298,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24509602.82,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 26.2
+		},
+		{
+			"carrier_phase": 3.0195,
+			"channel_number": 18,
+			"doppler": -5544.53,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22080727.36,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 46.4
+		},
+		{
+			"carrier_phase": 3.248,
+			"channel_number": 18,
+			"doppler": -5544.559,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22080727.36,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 28.8
+		},
+		{
+			"carrier_phase": 0.9865,
+			"channel_number": 18,
+			"doppler": -4320.35,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22080727.36,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 29
+		},
+		{
+			"carrier_phase": 3.443,
+			"channel_number": 19,
+			"doppler": -1068.303,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21056886.34,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 46.4
+		},
+		{
+			"carrier_phase": 3.668,
+			"channel_number": 19,
+			"doppler": -1068.411,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21056886.34,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.4
+		},
+		{
+			"carrier_phase": 1.3205,
+			"channel_number": 19,
+			"doppler": -832.505,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21056886.34,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 28.5
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066366
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 5.0155,
+			"channel_number": 0,
+			"doppler": -3890.02,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19253486.36,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 48.5
+		},
+		{
+			"carrier_phase": 5.226,
+			"channel_number": 0,
+			"doppler": -3890.139,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19253486.36,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 15.5
+		},
+		{
+			"carrier_phase": 1.351,
+			"channel_number": 3,
+			"doppler": -2587.394,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25226067.34,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 45.3
+		},
+		{
+			"carrier_phase": 1.582,
+			"channel_number": 3,
+			"doppler": -2587.387,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25226067.34,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 25.4
+		},
+		{
+			"carrier_phase": 1.022,
+			"channel_number": 3,
+			"doppler": -2016.14,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25226067.34,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 26.5
+		},
+		{
+			"carrier_phase": 2.1875,
+			"channel_number": 5,
+			"doppler": 199.946,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508600.78,
+			"satellite_id": 18,
+			"signal_type": "L1CA",
+			"snr": 47.8
+		},
+		{
+			"carrier_phase": 2.4175,
+			"channel_number": 5,
+			"doppler": 199.973,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508600.78,
+			"satellite_id": 18,
+			"signal_type": "P1",
+			"snr": 28.7
+		},
+		{
+			"carrier_phase": 0.432,
+			"channel_number": 5,
+			"doppler": 155.788,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508600.78,
+			"satellite_id": 18,
+			"signal_type": "P2",
+			"snr": 28.7
+		},
+		{
+			"carrier_phase": 3.842,
+			"channel_number": 6,
+			"doppler": -1747.123,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21455537.38,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 46.4
+		},
+		{
+			"carrier_phase": 3.8805,
+			"channel_number": 6,
+			"doppler": -1747.112,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21455537.38,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.6
+		},
+		{
+			"carrier_phase": 3.217,
+			"channel_number": 6,
+			"doppler": -1361.418,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21455537.38,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 28.5
+		},
+		{
+			"carrier_phase": 6.66,
+			"channel_number": 3,
+			"doppler": 1298.525,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23336399.14,
+			"satellite_id": 23,
+			"signal_type": "L1CA",
+			"snr": 46.1
+		},
+		{
+			"carrier_phase": 6.86,
+			"channel_number": 3,
+			"doppler": 1298.432,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23336399.14,
+			"satellite_id": 23,
+			"signal_type": "P1",
+			"snr": 15.3
+		},
+		{
+			"carrier_phase": 4.732,
+			"channel_number": 1,
+			"doppler": -209.227,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392838.18,
+			"satellite_id": 6,
+			"signal_type": "L1CA",
+			"snr": 47.8
+		},
+		{
+			"carrier_phase": 4.815,
+			"channel_number": 1,
+			"doppler": -209.324,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392838.18,
+			"satellite_id": 6,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 6.538,
+			"channel_number": 2,
+			"doppler": -1674.377,
+			"gnss": "GLONASS",
+			"locktime": 74.3,
+			"pseudorange": 19618949.88,
+			"satellite_id": 24,
+			"signal_type": "L1CA",
+			"snr": 48
+		},
+		{
+			"carrier_phase": 6.7925,
+			"channel_number": 2,
+			"doppler": -1674.292,
+			"gnss": "GLONASS",
+			"locktime": 67.10000000000001,
+			"pseudorange": 19618949.88,
+			"satellite_id": 24,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 0.976,
+			"channel_number": 14,
+			"doppler": -4687.773,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21260487.04,
+			"satellite_id": 12,
+			"signal_type": "L1CA",
+			"snr": 48
+		},
+		{
+			"carrier_phase": 1.0155,
+			"channel_number": 14,
+			"doppler": -4687.726,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21260487.04,
+			"satellite_id": 12,
+			"signal_type": "P1",
+			"snr": 28.1
+		},
+		{
+			"carrier_phase": 0.924,
+			"channel_number": 14,
+			"doppler": -3652.785,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21260487.04,
+			"satellite_id": 12,
+			"signal_type": "P2",
+			"snr": 28
+		},
+		{
+			"carrier_phase": 3.143,
+			"channel_number": 15,
+			"doppler": -5168.808,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21419872.84,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 46.3
+		},
+		{
+			"carrier_phase": 3.183,
+			"channel_number": 15,
+			"doppler": -5168.822,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21419872.84,
+			"satellite_id": 5,
+			"signal_type": "P1",
+			"snr": 28.2
+		},
+		{
+			"carrier_phase": 2.0145,
+			"channel_number": 15,
+			"doppler": -4027.748,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21419872.84,
+			"satellite_id": 5,
+			"signal_type": "P2",
+			"snr": 28.3
+		},
+		{
+			"carrier_phase": 0.361,
+			"channel_number": 16,
+			"doppler": 706.189,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910237.9,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 44.1
+		},
+		{
+			"carrier_phase": 0.5945,
+			"channel_number": 16,
+			"doppler": 706.307,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910237.9,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 26.3
+		},
+		{
+			"carrier_phase": -2.0525,
+			"channel_number": 16,
+			"doppler": 550.3390000000001,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910237.9,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26
+		},
+		{
+			"carrier_phase": -1.426,
+			"channel_number": 17,
+			"doppler": -2260.99,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24509172.96,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 45.3
+		},
+		{
+			"carrier_phase": -1.196,
+			"channel_number": 17,
+			"doppler": -2261.047,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24509172.96,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 26.3
+		},
+		{
+			"carrier_phase": -1.38,
+			"channel_number": 17,
+			"doppler": -1761.94,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24509172.96,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 26.2
+		},
+		{
+			"carrier_phase": 3.062,
+			"channel_number": 18,
+			"doppler": -5543.703,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22079672.3,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 46.2
+		},
+		{
+			"carrier_phase": 3.2915,
+			"channel_number": 18,
+			"doppler": -5543.705,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22079672.3,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 28.8
+		},
+		{
+			"carrier_phase": 1.027,
+			"channel_number": 18,
+			"doppler": -4319.799,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22079672.3,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 29
+		},
+		{
+			"carrier_phase": 3.1295,
+			"channel_number": 19,
+			"doppler": -1067.806,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21056683.42,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 46.2
+		},
+		{
+			"carrier_phase": 3.356,
+			"channel_number": 19,
+			"doppler": -1067.913,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21056683.42,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.4
+		},
+		{
+			"carrier_phase": 1.008,
+			"channel_number": 19,
+			"doppler": -832.123,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21056683.42,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 28.5
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066367
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 4.96,
+			"channel_number": 0,
+			"doppler": -3889.268,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19252758.52,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 48.9
+		},
+		{
+			"carrier_phase": 5.164,
+			"channel_number": 0,
+			"doppler": -3889.44,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19252758.52,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 15.5
+		},
+		{
+			"carrier_phase": 1.2565,
+			"channel_number": 3,
+			"doppler": -2587.136,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25225575.1,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 45.6
+		},
+		{
+			"carrier_phase": 1.4865,
+			"channel_number": 3,
+			"doppler": -2587.064,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25225575.1,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 25.4
+		},
+		{
+			"carrier_phase": 0.927,
+			"channel_number": 3,
+			"doppler": -2015.973,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25225575.1,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 26.5
+		},
+		{
+			"carrier_phase": 2.61,
+			"channel_number": 5,
+			"doppler": 200.47,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508638.42,
+			"satellite_id": 18,
+			"signal_type": "L1CA",
+			"snr": 46.9
+		},
+		{
+			"carrier_phase": 2.839,
+			"channel_number": 5,
+			"doppler": 200.436,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508638.42,
+			"satellite_id": 18,
+			"signal_type": "P1",
+			"snr": 28.7
+		},
+		{
+			"carrier_phase": 0.8545,
+			"channel_number": 5,
+			"doppler": 156.193,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508638.42,
+			"satellite_id": 18,
+			"signal_type": "P2",
+			"snr": 28.7
+		},
+		{
+			"carrier_phase": 3.493,
+			"channel_number": 6,
+			"doppler": -1746.268,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21455205.34,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 46.3
+		},
+		{
+			"carrier_phase": 3.53,
+			"channel_number": 6,
+			"doppler": -1746.283,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21455205.34,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.7
+		},
+		{
+			"carrier_phase": 2.8685,
+			"channel_number": 6,
+			"doppler": -1360.762,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21455205.34,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 28.5
+		},
+		{
+			"carrier_phase": 6.6115,
+			"channel_number": 3,
+			"doppler": 1298.549,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23336641.94,
+			"satellite_id": 23,
+			"signal_type": "L1CA",
+			"snr": 46.5
+		},
+		{
+			"carrier_phase": 6.809,
+			"channel_number": 3,
+			"doppler": 1298.505,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23336641.94,
+			"satellite_id": 23,
+			"signal_type": "P1",
+			"snr": 15.3
+		},
+		{
+			"carrier_phase": 4.7365,
+			"channel_number": 1,
+			"doppler": -208.362,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392799.1,
+			"satellite_id": 6,
+			"signal_type": "L1CA",
+			"snr": 47.7
+		},
+		{
+			"carrier_phase": 4.82,
+			"channel_number": 1,
+			"doppler": -208.412,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392799.1,
+			"satellite_id": 6,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 6.3555,
+			"channel_number": 2,
+			"doppler": -1673.548,
+			"gnss": "GLONASS",
+			"locktime": 75.3,
+			"pseudorange": 19618637.02,
+			"satellite_id": 24,
+			"signal_type": "L1CA",
+			"snr": 48.9
+		},
+		{
+			"carrier_phase": 6.592000000000001,
+			"channel_number": 2,
+			"doppler": -1673.686,
+			"gnss": "GLONASS",
+			"locktime": 68.10000000000001,
+			"pseudorange": 19618637.02,
+			"satellite_id": 24,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 1.009,
+			"channel_number": 14,
+			"doppler": -4687.189,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21259595.04,
+			"satellite_id": 12,
+			"signal_type": "L1CA",
+			"snr": 46.1
+		},
+		{
+			"carrier_phase": 1.049,
+			"channel_number": 14,
+			"doppler": -4687.192,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21259595.04,
+			"satellite_id": 12,
+			"signal_type": "P1",
+			"snr": 28.1
+		},
+		{
+			"carrier_phase": 0.96,
+			"channel_number": 14,
+			"doppler": -3652.319,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21259595.04,
+			"satellite_id": 12,
+			"signal_type": "P2",
+			"snr": 28
+		},
+		{
+			"carrier_phase": 3.229,
+			"channel_number": 15,
+			"doppler": -5168.245,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21418889.2,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 46.8
+		},
+		{
+			"carrier_phase": 3.27,
+			"channel_number": 15,
+			"doppler": -5168.201,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21418889.2,
+			"satellite_id": 5,
+			"signal_type": "P1",
+			"snr": 28.2
+		},
+		{
+			"carrier_phase": 2.1035,
+			"channel_number": 15,
+			"doppler": -4027.22,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21418889.2,
+			"satellite_id": 5,
+			"signal_type": "P2",
+			"snr": 28.3
+		},
+		{
+			"carrier_phase": 0.4895,
+			"channel_number": 16,
+			"doppler": 706.172,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910372.18,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45
+		},
+		{
+			"carrier_phase": 0.723,
+			"channel_number": 16,
+			"doppler": 706.14,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910372.18,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 26.3
+		},
+		{
+			"carrier_phase": -1.925,
+			"channel_number": 16,
+			"doppler": 550.206,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910372.18,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26
+		},
+		{
+			"carrier_phase": -1.332,
+			"channel_number": 17,
+			"doppler": -2260.806,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24508742.64,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 45.4
+		},
+		{
+			"carrier_phase": -1.1025,
+			"channel_number": 17,
+			"doppler": -2260.925,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24508742.64,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 26.3
+		},
+		{
+			"carrier_phase": -1.284,
+			"channel_number": 17,
+			"doppler": -1761.776,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24508742.64,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 26.2
+		},
+		{
+			"carrier_phase": 3.264,
+			"channel_number": 18,
+			"doppler": -5543.649,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22078617.14,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 46.2
+		},
+		{
+			"carrier_phase": 3.492,
+			"channel_number": 18,
+			"doppler": -5543.711,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22078617.14,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 28.8
+		},
+		{
+			"carrier_phase": 1.232,
+			"channel_number": 18,
+			"doppler": -4319.766000000001,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22078617.14,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 29
+		},
+		{
+			"carrier_phase": 3.4415,
+			"channel_number": 19,
+			"doppler": -1067.339,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21056479.96,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 47.5
+		},
+		{
+			"carrier_phase": 3.66,
+			"channel_number": 19,
+			"doppler": -1067.261,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21056479.96,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.4
+		},
+		{
+			"carrier_phase": 1.3135,
+			"channel_number": 19,
+			"doppler": -831.635,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21056479.96,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 28.5
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066368
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 4.9515,
+			"channel_number": 0,
+			"doppler": -3888.475,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19252030.76,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 48.2
+		},
+		{
+			"carrier_phase": 5.156,
+			"channel_number": 0,
+			"doppler": -3888.575,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19252030.76,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 15.5
+		},
+		{
+			"carrier_phase": 1.245,
+			"channel_number": 3,
+			"doppler": -2586.499,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25225082.9,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 44.2
+		},
+		{
+			"carrier_phase": 1.4755,
+			"channel_number": 3,
+			"doppler": -2586.507,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25225082.9,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 25.4
+		},
+		{
+			"carrier_phase": 0.918,
+			"channel_number": 3,
+			"doppler": -2015.474,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25225082.9,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 26.5
+		},
+		{
+			"carrier_phase": 2.6875,
+			"channel_number": 5,
+			"doppler": 200.791,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508676.48,
+			"satellite_id": 18,
+			"signal_type": "L1CA",
+			"snr": 46.9
+		},
+		{
+			"carrier_phase": 2.916,
+			"channel_number": 5,
+			"doppler": 200.747,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508676.48,
+			"satellite_id": 18,
+			"signal_type": "P1",
+			"snr": 28.7
+		},
+		{
+			"carrier_phase": 0.9320000000000001,
+			"channel_number": 5,
+			"doppler": 156.398,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508676.48,
+			"satellite_id": 18,
+			"signal_type": "P2",
+			"snr": 28.7
+		},
+		{
+			"carrier_phase": 3.2675,
+			"channel_number": 6,
+			"doppler": -1745.877,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21454873.3,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 47.6
+		},
+		{
+			"carrier_phase": 3.308,
+			"channel_number": 6,
+			"doppler": -1745.873,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21454873.3,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.7
+		},
+		{
+			"carrier_phase": 2.6465,
+			"channel_number": 6,
+			"doppler": -1360.419,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21454873.3,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 28.5
+		},
+		{
+			"carrier_phase": 6.687,
+			"channel_number": 3,
+			"doppler": 1298.996,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23336884.66,
+			"satellite_id": 23,
+			"signal_type": "L1CA",
+			"snr": 46.4
+		},
+		{
+			"carrier_phase": 6.890000000000001,
+			"channel_number": 3,
+			"doppler": 1299.003,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23336884.66,
+			"satellite_id": 23,
+			"signal_type": "P1",
+			"snr": 15.3
+		},
+		{
+			"carrier_phase": 4.9945,
+			"channel_number": 1,
+			"doppler": -207.735,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392759.88,
+			"satellite_id": 6,
+			"signal_type": "L1CA",
+			"snr": 47.7
+		},
+		{
+			"carrier_phase": 5.0815,
+			"channel_number": 1,
+			"doppler": -207.822,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392759.88,
+			"satellite_id": 6,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 6.309,
+			"channel_number": 2,
+			"doppler": -1672.835,
+			"gnss": "GLONASS",
+			"locktime": 76.3,
+			"pseudorange": 19618324.18,
+			"satellite_id": 24,
+			"signal_type": "L1CA",
+			"snr": 47.5
+		},
+		{
+			"carrier_phase": 6.545,
+			"channel_number": 2,
+			"doppler": -1672.953,
+			"gnss": "GLONASS",
+			"locktime": 69.10000000000001,
+			"pseudorange": 19618324.18,
+			"satellite_id": 24,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 1.162,
+			"channel_number": 14,
+			"doppler": -4686.451,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21258703.04,
+			"satellite_id": 12,
+			"signal_type": "L1CA",
+			"snr": 46.3
+		},
+		{
+			"carrier_phase": 1.201,
+			"channel_number": 14,
+			"doppler": -4686.476,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21258703.04,
+			"satellite_id": 12,
+			"signal_type": "P1",
+			"snr": 28.1
+		},
+		{
+			"carrier_phase": 1.1115,
+			"channel_number": 14,
+			"doppler": -3651.812,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21258703.04,
+			"satellite_id": 12,
+			"signal_type": "P2",
+			"snr": 28
+		},
+		{
+			"carrier_phase": 3.261,
+			"channel_number": 15,
+			"doppler": -5167.596,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21417905.72,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 46.4
+		},
+		{
+			"carrier_phase": 3.302,
+			"channel_number": 15,
+			"doppler": -5167.581,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21417905.72,
+			"satellite_id": 5,
+			"signal_type": "P1",
+			"snr": 28.2
+		},
+		{
+			"carrier_phase": 2.136,
+			"channel_number": 15,
+			"doppler": -4026.691,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21417905.72,
+			"satellite_id": 5,
+			"signal_type": "P2",
+			"snr": 28.3
+		},
+		{
+			"carrier_phase": 0.8210000000000001,
+			"channel_number": 16,
+			"doppler": 706.302,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910506.28,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45.8
+		},
+		{
+			"carrier_phase": 1.0525,
+			"channel_number": 16,
+			"doppler": 706.275,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910506.28,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 26
+		},
+		{
+			"carrier_phase": -1.5905,
+			"channel_number": 16,
+			"doppler": 550.348,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910506.28,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26
+		},
+		{
+			"carrier_phase": -1.3465,
+			"channel_number": 17,
+			"doppler": -2259.618,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24508312.56,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 45.9
+		},
+		{
+			"carrier_phase": -1.117,
+			"channel_number": 17,
+			"doppler": -2259.649,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24508312.56,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 26.3
+		},
+		{
+			"carrier_phase": -1.299,
+			"channel_number": 17,
+			"doppler": -1760.776,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24508312.56,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 26.2
+		},
+		{
+			"carrier_phase": 2.9865,
+			"channel_number": 18,
+			"doppler": -5543.404,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22077562.52,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 47.7
+		},
+		{
+			"carrier_phase": 3.2155,
+			"channel_number": 18,
+			"doppler": -5543.422,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22077562.52,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 28.8
+		},
+		{
+			"carrier_phase": 0.9545,
+			"channel_number": 18,
+			"doppler": -4319.535,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22077562.52,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 29
+		},
+		{
+			"carrier_phase": 3.3595,
+			"channel_number": 19,
+			"doppler": -1066.779,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21056276.96,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 47.8
+		},
+		{
+			"carrier_phase": 3.583,
+			"channel_number": 19,
+			"doppler": -1066.823,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21056276.96,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.4
+		},
+		{
+			"carrier_phase": 1.2385,
+			"channel_number": 19,
+			"doppler": -831.2810000000001,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21056276.96,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 28.5
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066369
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 4.6485,
+			"channel_number": 0,
+			"doppler": -3887.882,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19251303.42,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 49.2
+		},
+		{
+			"carrier_phase": 4.8555,
+			"channel_number": 0,
+			"doppler": -3887.761,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19251303.42,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 15.5
+		},
+		{
+			"carrier_phase": 1.109,
+			"channel_number": 3,
+			"doppler": -2585.72,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25224590.94,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 44.4
+		},
+		{
+			"carrier_phase": 1.341,
+			"channel_number": 3,
+			"doppler": -2585.704,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25224590.94,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 25.4
+		},
+		{
+			"carrier_phase": 0.7795,
+			"channel_number": 3,
+			"doppler": -2014.877,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25224590.94,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 26.5
+		},
+		{
+			"carrier_phase": 2.86,
+			"channel_number": 5,
+			"doppler": 200.964,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508714.52,
+			"satellite_id": 18,
+			"signal_type": "L1CA",
+			"snr": 45.3
+		},
+		{
+			"carrier_phase": 3.0885,
+			"channel_number": 5,
+			"doppler": 200.987,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508714.52,
+			"satellite_id": 18,
+			"signal_type": "P1",
+			"snr": 28.7
+		},
+		{
+			"carrier_phase": 1.1025,
+			"channel_number": 5,
+			"doppler": 156.569,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508714.52,
+			"satellite_id": 18,
+			"signal_type": "P2",
+			"snr": 28.7
+		},
+		{
+			"carrier_phase": 3.612,
+			"channel_number": 6,
+			"doppler": -1744.94,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21454540.82,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 47.7
+		},
+		{
+			"carrier_phase": 3.6505,
+			"channel_number": 6,
+			"doppler": -1744.88,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21454540.82,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.7
+		},
+		{
+			"carrier_phase": 2.9865,
+			"channel_number": 6,
+			"doppler": -1359.72,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21454540.82,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 28.5
+		},
+		{
+			"carrier_phase": 6.6155,
+			"channel_number": 3,
+			"doppler": 1299.196,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23337127.56,
+			"satellite_id": 23,
+			"signal_type": "L1CA",
+			"snr": 47.8
+		},
+		{
+			"carrier_phase": 6.8265,
+			"channel_number": 3,
+			"doppler": 1299.212,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23337127.56,
+			"satellite_id": 23,
+			"signal_type": "P1",
+			"snr": 15.3
+		},
+		{
+			"carrier_phase": 4.81,
+			"channel_number": 1,
+			"doppler": -207.064,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392721.22,
+			"satellite_id": 6,
+			"signal_type": "L1CA",
+			"snr": 46.3
+		},
+		{
+			"carrier_phase": 4.9005,
+			"channel_number": 1,
+			"doppler": -206.884,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392721.22,
+			"satellite_id": 6,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 6.2375,
+			"channel_number": 2,
+			"doppler": -1671.904,
+			"gnss": "GLONASS",
+			"locktime": 77.30000000000001,
+			"pseudorange": 19618011.52,
+			"satellite_id": 24,
+			"signal_type": "L1CA",
+			"snr": 48.9
+		},
+		{
+			"carrier_phase": 6.472,
+			"channel_number": 2,
+			"doppler": -1672.026,
+			"gnss": "GLONASS",
+			"locktime": 70.10000000000001,
+			"pseudorange": 19618011.52,
+			"satellite_id": 24,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 1.425,
+			"channel_number": 14,
+			"doppler": -4685.713,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21257811.04,
+			"satellite_id": 12,
+			"signal_type": "L1CA",
+			"snr": 47.7
+		},
+		{
+			"carrier_phase": 1.4645,
+			"channel_number": 14,
+			"doppler": -4685.699000000001,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21257811.04,
+			"satellite_id": 12,
+			"signal_type": "P1",
+			"snr": 28.1
+		},
+		{
+			"carrier_phase": 1.3745,
+			"channel_number": 14,
+			"doppler": -3651.314,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21257811.04,
+			"satellite_id": 12,
+			"signal_type": "P2",
+			"snr": 28.1
+		},
+		{
+			"carrier_phase": 3.2515,
+			"channel_number": 15,
+			"doppler": -5167.046,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21416922.38,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 47.9
+		},
+		{
+			"carrier_phase": 3.2925,
+			"channel_number": 15,
+			"doppler": -5167.108,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21416922.38,
+			"satellite_id": 5,
+			"signal_type": "P1",
+			"snr": 28.2
+		},
+		{
+			"carrier_phase": 2.1255,
+			"channel_number": 15,
+			"doppler": -4026.354,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21416922.38,
+			"satellite_id": 5,
+			"signal_type": "P2",
+			"snr": 28.3
+		},
+		{
+			"carrier_phase": 1.233,
+			"channel_number": 16,
+			"doppler": 706.789,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910640.32,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45.7
+		},
+		{
+			"carrier_phase": 1.4635,
+			"channel_number": 16,
+			"doppler": 706.721,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910640.32,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 26
+		},
+		{
+			"carrier_phase": -1.1795,
+			"channel_number": 16,
+			"doppler": 550.689,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910640.32,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26
+		},
+		{
+			"carrier_phase": -1.405,
+			"channel_number": 17,
+			"doppler": -2259.098,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24507882.64,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 45.8
+		},
+		{
+			"carrier_phase": -1.1745,
+			"channel_number": 17,
+			"doppler": -2259.163,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24507882.64,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 26.3
+		},
+		{
+			"carrier_phase": -1.357,
+			"channel_number": 17,
+			"doppler": -1760.316,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24507882.64,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 26.2
+		},
+		{
+			"carrier_phase": 2.87,
+			"channel_number": 18,
+			"doppler": -5542.686,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22076507.8,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 47.5
+		},
+		{
+			"carrier_phase": 3.097,
+			"channel_number": 18,
+			"doppler": -5542.788,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22076507.8,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 28.8
+		},
+		{
+			"carrier_phase": 0.8355,
+			"channel_number": 18,
+			"doppler": -4319.02,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22076507.8,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 29
+		},
+		{
+			"carrier_phase": 3.652,
+			"channel_number": 19,
+			"doppler": -1066.566,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21056073.66,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 46.2
+		},
+		{
+			"carrier_phase": 3.877,
+			"channel_number": 19,
+			"doppler": -1066.58,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21056073.66,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.4
+		},
+		{
+			"carrier_phase": 1.5315,
+			"channel_number": 19,
+			"doppler": -831.155,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21056073.66,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 28.5
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066370
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 5.015,
+			"channel_number": 0,
+			"doppler": -3887.284,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19250575.54,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 49.6
+		},
+		{
+			"carrier_phase": 5.2285,
+			"channel_number": 0,
+			"doppler": -3887.246,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19250575.54,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 15.5
+		},
+		{
+			"carrier_phase": 1.738,
+			"channel_number": 3,
+			"doppler": -2584.9,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25224098.34,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 46
+		},
+		{
+			"carrier_phase": 1.9695,
+			"channel_number": 3,
+			"doppler": -2584.892,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25224098.34,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 25.4
+		},
+		{
+			"carrier_phase": 1.4095,
+			"channel_number": 3,
+			"doppler": -2014.197,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25224098.34,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 25.5
+		},
+		{
+			"carrier_phase": 2.972,
+			"channel_number": 5,
+			"doppler": 201.517,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508752.7,
+			"satellite_id": 18,
+			"signal_type": "L1CA",
+			"snr": 46
+		},
+		{
+			"carrier_phase": 3.202,
+			"channel_number": 5,
+			"doppler": 201.537,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508752.7,
+			"satellite_id": 18,
+			"signal_type": "P1",
+			"snr": 28.7
+		},
+		{
+			"carrier_phase": 1.216,
+			"channel_number": 5,
+			"doppler": 157.061,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508752.7,
+			"satellite_id": 18,
+			"signal_type": "P2",
+			"snr": 28.7
+		},
+		{
+			"carrier_phase": 3.708,
+			"channel_number": 6,
+			"doppler": -1744.16,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21454208.72,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 47.2
+		},
+		{
+			"carrier_phase": 3.746,
+			"channel_number": 6,
+			"doppler": -1744.115,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21454208.72,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.7
+		},
+		{
+			"carrier_phase": 3.0835,
+			"channel_number": 6,
+			"doppler": -1359.096,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21454208.72,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 28.5
+		},
+		{
+			"carrier_phase": 6.553500000000001,
+			"channel_number": 3,
+			"doppler": 1299.434,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23337370.5,
+			"satellite_id": 23,
+			"signal_type": "L1CA",
+			"snr": 46.3
+		},
+		{
+			"carrier_phase": 6.7675,
+			"channel_number": 3,
+			"doppler": 1299.465,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23337370.5,
+			"satellite_id": 23,
+			"signal_type": "P1",
+			"snr": 15.3
+		},
+		{
+			"carrier_phase": 5.085,
+			"channel_number": 1,
+			"doppler": -206.761,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392682.22,
+			"satellite_id": 6,
+			"signal_type": "L1CA",
+			"snr": 47.8
+		},
+		{
+			"carrier_phase": 5.1735,
+			"channel_number": 1,
+			"doppler": -206.757,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392682.22,
+			"satellite_id": 6,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 5.948,
+			"channel_number": 2,
+			"doppler": -1670.896,
+			"gnss": "GLONASS",
+			"locktime": 78.30000000000001,
+			"pseudorange": 19617699.24,
+			"satellite_id": 24,
+			"signal_type": "L1CA",
+			"snr": 48.4
+		},
+		{
+			"carrier_phase": 6.1805,
+			"channel_number": 2,
+			"doppler": -1670.998,
+			"gnss": "GLONASS",
+			"locktime": 71.10000000000001,
+			"pseudorange": 19617699.24,
+			"satellite_id": 24,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 1.39,
+			"channel_number": 14,
+			"doppler": -4685.133,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21256919.46,
+			"satellite_id": 12,
+			"signal_type": "L1CA",
+			"snr": 46.2
+		},
+		{
+			"carrier_phase": 1.4305,
+			"channel_number": 14,
+			"doppler": -4685.098,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21256919.46,
+			"satellite_id": 12,
+			"signal_type": "P1",
+			"snr": 28.1
+		},
+		{
+			"carrier_phase": 1.3395,
+			"channel_number": 14,
+			"doppler": -3650.721,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21256919.46,
+			"satellite_id": 12,
+			"signal_type": "P2",
+			"snr": 28.1
+		},
+		{
+			"carrier_phase": 3.272,
+			"channel_number": 15,
+			"doppler": -5166.502,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21415939.12,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 46.4
+		},
+		{
+			"carrier_phase": 3.3135,
+			"channel_number": 15,
+			"doppler": -5166.504,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21415939.12,
+			"satellite_id": 5,
+			"signal_type": "P1",
+			"snr": 28.2
+		},
+		{
+			"carrier_phase": 2.1475,
+			"channel_number": 15,
+			"doppler": -4025.832,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21415939.12,
+			"satellite_id": 5,
+			"signal_type": "P2",
+			"snr": 28.3
+		},
+		{
+			"carrier_phase": 0.9505,
+			"channel_number": 16,
+			"doppler": 706.883,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910775.08,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45.8
+		},
+		{
+			"carrier_phase": 1.1815,
+			"channel_number": 16,
+			"doppler": 706.88,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910775.08,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 26
+		},
+		{
+			"carrier_phase": -1.462,
+			"channel_number": 16,
+			"doppler": 550.8100000000001,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910775.08,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26
+		},
+		{
+			"carrier_phase": -1.115,
+			"channel_number": 17,
+			"doppler": -2258.585,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24507452.5,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 45.9
+		},
+		{
+			"carrier_phase": -0.8855000000000001,
+			"channel_number": 17,
+			"doppler": -2258.605,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24507452.5,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 26.3
+		},
+		{
+			"carrier_phase": -1.068,
+			"channel_number": 17,
+			"doppler": -1759.941,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24507452.5,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 26.2
+		},
+		{
+			"carrier_phase": 3.0345,
+			"channel_number": 18,
+			"doppler": -5542.762,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22075452.86,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 47.6
+		},
+		{
+			"carrier_phase": 3.262,
+			"channel_number": 18,
+			"doppler": -5542.812,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22075452.86,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 28.8
+		},
+		{
+			"carrier_phase": 1.002,
+			"channel_number": 18,
+			"doppler": -4318.996,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22075452.86,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 29
+		},
+		{
+			"carrier_phase": 3.1665,
+			"channel_number": 19,
+			"doppler": -1066.113,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21055871.22,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 47.6
+		},
+		{
+			"carrier_phase": 3.3955,
+			"channel_number": 19,
+			"doppler": -1066.054,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21055871.22,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.4
+		},
+		{
+			"carrier_phase": 1.0495,
+			"channel_number": 19,
+			"doppler": -830.713,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21055871.22,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 28.5
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066371
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 4.9905,
+			"channel_number": 0,
+			"doppler": -3886.517,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19249848.18,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 49.8
+		},
+		{
+			"carrier_phase": 5.208,
+			"channel_number": 0,
+			"doppler": -3886.355,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19249848.18,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 15.5
+		},
+		{
+			"carrier_phase": 1.4285,
+			"channel_number": 3,
+			"doppler": -2584.41,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25223606.8,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 45.8
+		},
+		{
+			"carrier_phase": 1.66,
+			"channel_number": 3,
+			"doppler": -2584.475,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25223606.8,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 26.5
+		},
+		{
+			"carrier_phase": 1.0985,
+			"channel_number": 3,
+			"doppler": -2013.853,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25223606.8,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 25.5
+		},
+		{
+			"carrier_phase": 3.517,
+			"channel_number": 5,
+			"doppler": 201.802,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508790.52,
+			"satellite_id": 18,
+			"signal_type": "L1CA",
+			"snr": 46.9
+		},
+		{
+			"carrier_phase": 3.7495,
+			"channel_number": 5,
+			"doppler": 201.807,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508790.52,
+			"satellite_id": 18,
+			"signal_type": "P1",
+			"snr": 28.7
+		},
+		{
+			"carrier_phase": 1.762,
+			"channel_number": 5,
+			"doppler": 157.163,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508790.52,
+			"satellite_id": 18,
+			"signal_type": "P2",
+			"snr": 28.7
+		},
+		{
+			"carrier_phase": 3.805,
+			"channel_number": 6,
+			"doppler": -1743.84,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21453876.74,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 47.5
+		},
+		{
+			"carrier_phase": 3.843,
+			"channel_number": 6,
+			"doppler": -1743.791,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21453876.74,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.7
+		},
+		{
+			"carrier_phase": 3.1795,
+			"channel_number": 6,
+			"doppler": -1358.815,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21453876.74,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 29.6
+		},
+		{
+			"carrier_phase": 6.524,
+			"channel_number": 3,
+			"doppler": 1299.478,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23337613.44,
+			"satellite_id": 23,
+			"signal_type": "L1CA",
+			"snr": 47.6
+		},
+		{
+			"carrier_phase": 6.7305,
+			"channel_number": 3,
+			"doppler": 1299.614,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23337613.44,
+			"satellite_id": 23,
+			"signal_type": "P1",
+			"snr": 15.3
+		},
+		{
+			"carrier_phase": 4.913,
+			"channel_number": 1,
+			"doppler": -206.199,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392643.78,
+			"satellite_id": 6,
+			"signal_type": "L1CA",
+			"snr": 47.6
+		},
+		{
+			"carrier_phase": 5,
+			"channel_number": 1,
+			"doppler": -206.09,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392643.78,
+			"satellite_id": 6,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 5.971,
+			"channel_number": 2,
+			"doppler": -1669.922,
+			"gnss": "GLONASS",
+			"locktime": 79.30000000000001,
+			"pseudorange": 19617386.8,
+			"satellite_id": 24,
+			"signal_type": "L1CA",
+			"snr": 48.7
+		},
+		{
+			"carrier_phase": 6.2,
+			"channel_number": 2,
+			"doppler": -1670.204,
+			"gnss": "GLONASS",
+			"locktime": 72.10000000000001,
+			"pseudorange": 19617386.8,
+			"satellite_id": 24,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 1.429,
+			"channel_number": 14,
+			"doppler": -4684.443,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21256027.92,
+			"satellite_id": 12,
+			"signal_type": "L1CA",
+			"snr": 46.5
+		},
+		{
+			"carrier_phase": 1.4675,
+			"channel_number": 14,
+			"doppler": -4684.474,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21256027.92,
+			"satellite_id": 12,
+			"signal_type": "P1",
+			"snr": 28.1
+		},
+		{
+			"carrier_phase": 1.3785,
+			"channel_number": 14,
+			"doppler": -3650.229,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21256027.92,
+			"satellite_id": 12,
+			"signal_type": "P2",
+			"snr": 28.1
+		},
+		{
+			"carrier_phase": 3.2515,
+			"channel_number": 15,
+			"doppler": -5166.214,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21414956,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 47.8
+		},
+		{
+			"carrier_phase": 3.292,
+			"channel_number": 15,
+			"doppler": -5166.251,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21414956,
+			"satellite_id": 5,
+			"signal_type": "P1",
+			"snr": 28.2
+		},
+		{
+			"carrier_phase": 2.125,
+			"channel_number": 15,
+			"doppler": -4025.668,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21414956,
+			"satellite_id": 5,
+			"signal_type": "P2",
+			"snr": 28.3
+		},
+		{
+			"carrier_phase": 1.1655,
+			"channel_number": 16,
+			"doppler": 706.6610000000001,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910909.36,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45.9
+		},
+		{
+			"carrier_phase": 1.394,
+			"channel_number": 16,
+			"doppler": 706.6270000000001,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910909.36,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 26
+		},
+		{
+			"carrier_phase": -1.2515,
+			"channel_number": 16,
+			"doppler": 550.605,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24910909.36,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26
+		},
+		{
+			"carrier_phase": -1.1215,
+			"channel_number": 17,
+			"doppler": -2257.865,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24507022.78,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 45.4
+		},
+		{
+			"carrier_phase": -0.891,
+			"channel_number": 17,
+			"doppler": -2257.885,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24507022.78,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 26.3
+		},
+		{
+			"carrier_phase": -1.073,
+			"channel_number": 17,
+			"doppler": -1759.462,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24507022.78,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 26.2
+		},
+		{
+			"carrier_phase": 2.9575,
+			"channel_number": 18,
+			"doppler": -5542.365,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22074398.22,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 46.2
+		},
+		{
+			"carrier_phase": 3.1845,
+			"channel_number": 18,
+			"doppler": -5542.387,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22074398.22,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 28.8
+		},
+		{
+			"carrier_phase": 0.922,
+			"channel_number": 18,
+			"doppler": -4318.794,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22074398.22,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 29
+		},
+		{
+			"carrier_phase": 2.9355,
+			"channel_number": 19,
+			"doppler": -1065.774,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21055668.6,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 47.8
+		},
+		{
+			"carrier_phase": 3.1655,
+			"channel_number": 19,
+			"doppler": -1065.754,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21055668.6,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.4
+		},
+		{
+			"carrier_phase": 0.8200000000000001,
+			"channel_number": 19,
+			"doppler": -830.468,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21055668.6,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 28.5
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066372
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 5.136,
+			"channel_number": 0,
+			"doppler": -3886.015,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19249120.78,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 48
+		},
+		{
+			"carrier_phase": 5.3565,
+			"channel_number": 0,
+			"doppler": -3885.96,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19249120.78,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 15.5
+		},
+		{
+			"carrier_phase": 1.597,
+			"channel_number": 3,
+			"doppler": -2584.093,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25223114.9,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 45
+		},
+		{
+			"carrier_phase": 1.8295,
+			"channel_number": 3,
+			"doppler": -2584.03,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25223114.9,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 26.5
+		},
+		{
+			"carrier_phase": 1.2685,
+			"channel_number": 3,
+			"doppler": -2013.522,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25223114.9,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 25.5
+		},
+		{
+			"carrier_phase": 3.105,
+			"channel_number": 5,
+			"doppler": 202.09,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508829.38,
+			"satellite_id": 18,
+			"signal_type": "L1CA",
+			"snr": 46.1
+		},
+		{
+			"carrier_phase": 3.3355,
+			"channel_number": 5,
+			"doppler": 202.08,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508829.38,
+			"satellite_id": 18,
+			"signal_type": "P1",
+			"snr": 28.8
+		},
+		{
+			"carrier_phase": 1.3485,
+			"channel_number": 5,
+			"doppler": 157.466,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508829.38,
+			"satellite_id": 18,
+			"signal_type": "P2",
+			"snr": 28.9
+		},
+		{
+			"carrier_phase": 3.7955,
+			"channel_number": 6,
+			"doppler": -1743.419,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21453545,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 47.1
+		},
+		{
+			"carrier_phase": 3.8345,
+			"channel_number": 6,
+			"doppler": -1743.38,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21453545,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.7
+		},
+		{
+			"carrier_phase": 3.1725,
+			"channel_number": 6,
+			"doppler": -1358.545,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21453545,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 29.6
+		},
+		{
+			"carrier_phase": 6.617,
+			"channel_number": 3,
+			"doppler": 1299.267,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23337856.3,
+			"satellite_id": 23,
+			"signal_type": "L1CA",
+			"snr": 46.3
+		},
+		{
+			"carrier_phase": 6.828,
+			"channel_number": 3,
+			"doppler": 1299.327,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23337856.3,
+			"satellite_id": 23,
+			"signal_type": "P1",
+			"snr": 15.3
+		},
+		{
+			"carrier_phase": 5.043,
+			"channel_number": 1,
+			"doppler": -205.45,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392605.16,
+			"satellite_id": 6,
+			"signal_type": "L1CA",
+			"snr": 47.7
+		},
+		{
+			"carrier_phase": 5.23,
+			"channel_number": 1,
+			"doppler": -205.501,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392605.16,
+			"satellite_id": 6,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 6.249000000000001,
+			"channel_number": 2,
+			"doppler": -1669.298,
+			"gnss": "GLONASS",
+			"locktime": 80.30000000000001,
+			"pseudorange": 19617074.26,
+			"satellite_id": 24,
+			"signal_type": "L1CA",
+			"snr": 49
+		},
+		{
+			"carrier_phase": 6.4695,
+			"channel_number": 2,
+			"doppler": -1669.506,
+			"gnss": "GLONASS",
+			"locktime": 73.10000000000001,
+			"pseudorange": 19617074.26,
+			"satellite_id": 24,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 1.6065,
+			"channel_number": 14,
+			"doppler": -4684.355,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21255136.36,
+			"satellite_id": 12,
+			"signal_type": "L1CA",
+			"snr": 47.8
+		},
+		{
+			"carrier_phase": 1.646,
+			"channel_number": 14,
+			"doppler": -4684.35,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21255136.36,
+			"satellite_id": 12,
+			"signal_type": "P1",
+			"snr": 28.1
+		},
+		{
+			"carrier_phase": 1.5555,
+			"channel_number": 14,
+			"doppler": -3650.201,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21255136.36,
+			"satellite_id": 12,
+			"signal_type": "P2",
+			"snr": 28.1
+		},
+		{
+			"carrier_phase": 3.522,
+			"channel_number": 15,
+			"doppler": -5165.626,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21413972.7,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 46.4
+		},
+		{
+			"carrier_phase": 3.561,
+			"channel_number": 15,
+			"doppler": -5165.689,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21413972.7,
+			"satellite_id": 5,
+			"signal_type": "P1",
+			"snr": 28.2
+		},
+		{
+			"carrier_phase": 2.394,
+			"channel_number": 15,
+			"doppler": -4025.232,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21413972.7,
+			"satellite_id": 5,
+			"signal_type": "P2",
+			"snr": 28.3
+		},
+		{
+			"carrier_phase": 0.7495000000000001,
+			"channel_number": 16,
+			"doppler": 706.471,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24911044.3,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 45.4
+		},
+		{
+			"carrier_phase": 0.9785,
+			"channel_number": 16,
+			"doppler": 706.532,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24911044.3,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 26
+		},
+		{
+			"carrier_phase": -1.6665,
+			"channel_number": 16,
+			"doppler": 550.4880000000001,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24911044.3,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26
+		},
+		{
+			"carrier_phase": -1.2405,
+			"channel_number": 17,
+			"doppler": -2257.43,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24506593.3,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 45.2
+		},
+		{
+			"carrier_phase": -1.0115,
+			"channel_number": 17,
+			"doppler": -2257.377,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24506593.3,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 26.3
+		},
+		{
+			"carrier_phase": -1.1935,
+			"channel_number": 17,
+			"doppler": -1758.997,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24506593.3,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 26.2
+		},
+		{
+			"carrier_phase": 3.2035,
+			"channel_number": 18,
+			"doppler": -5542.384,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22073343.32,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 46.3
+		},
+		{
+			"carrier_phase": 3.4325,
+			"channel_number": 18,
+			"doppler": -5542.358,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22073343.32,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 28.9
+		},
+		{
+			"carrier_phase": 1.1705,
+			"channel_number": 18,
+			"doppler": -4318.767,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22073343.32,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 28.7
+		},
+		{
+			"carrier_phase": 3.386,
+			"channel_number": 19,
+			"doppler": -1065.336,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21055465.38,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 46.2
+		},
+		{
+			"carrier_phase": 3.617,
+			"channel_number": 19,
+			"doppler": -1065.368,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21055465.38,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.4
+		},
+		{
+			"carrier_phase": 1.2715,
+			"channel_number": 19,
+			"doppler": -830.158,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21055465.38,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 28.5
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066373
+}
+{
+	"channel_measurements": [
+		{
+			"carrier_phase": 5.027,
+			"channel_number": 0,
+			"doppler": -3885.082,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19248393.76,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 48.7
+		},
+		{
+			"carrier_phase": 5.24,
+			"channel_number": 0,
+			"doppler": -3885.248,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 19248393.76,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 15.5
+		},
+		{
+			"carrier_phase": 1.908,
+			"channel_number": 3,
+			"doppler": -2582.962,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25222622.98,
+			"satellite_id": 11,
+			"signal_type": "L1CA",
+			"snr": 45.9
+		},
+		{
+			"carrier_phase": 2.1375,
+			"channel_number": 3,
+			"doppler": -2583.006,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25222622.98,
+			"satellite_id": 11,
+			"signal_type": "P1",
+			"snr": 26.5
+		},
+		{
+			"carrier_phase": 1.5795,
+			"channel_number": 3,
+			"doppler": -2012.732,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 25222622.98,
+			"satellite_id": 11,
+			"signal_type": "P2",
+			"snr": 25.5
+		},
+		{
+			"carrier_phase": 3.1085,
+			"channel_number": 5,
+			"doppler": 202.788,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508867.9,
+			"satellite_id": 18,
+			"signal_type": "L1CA",
+			"snr": 47.6
+		},
+		{
+			"carrier_phase": 3.334,
+			"channel_number": 5,
+			"doppler": 202.76,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508867.9,
+			"satellite_id": 18,
+			"signal_type": "P1",
+			"snr": 28.8
+		},
+		{
+			"carrier_phase": 1.348,
+			"channel_number": 5,
+			"doppler": 158.034,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22508867.9,
+			"satellite_id": 18,
+			"signal_type": "P2",
+			"snr": 28.9
+		},
+		{
+			"carrier_phase": 3.9715,
+			"channel_number": 6,
+			"doppler": -1742.332,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21453213.2,
+			"satellite_id": 22,
+			"signal_type": "L1CA",
+			"snr": 47.9
+		},
+		{
+			"carrier_phase": 4.0105,
+			"channel_number": 6,
+			"doppler": -1742.312,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21453213.2,
+			"satellite_id": 22,
+			"signal_type": "P1",
+			"snr": 29.7
+		},
+		{
+			"carrier_phase": 3.35,
+			"channel_number": 6,
+			"doppler": -1357.655,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21453213.2,
+			"satellite_id": 22,
+			"signal_type": "P2",
+			"snr": 29.6
+		},
+		{
+			"carrier_phase": 6.188,
+			"channel_number": 3,
+			"doppler": 1299.927,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23338099.72,
+			"satellite_id": 23,
+			"signal_type": "L1CA",
+			"snr": 47
+		},
+		{
+			"carrier_phase": 6.41,
+			"channel_number": 3,
+			"doppler": 1299.946,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23338099.72,
+			"satellite_id": 23,
+			"signal_type": "P1",
+			"snr": 15.3
+		},
+		{
+			"carrier_phase": 5.1035,
+			"channel_number": 1,
+			"doppler": -205.031,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392566.72,
+			"satellite_id": 6,
+			"signal_type": "L1CA",
+			"snr": 46.2
+		},
+		{
+			"carrier_phase": 5.295500000000001,
+			"channel_number": 1,
+			"doppler": -204.886,
+			"gnss": "GLONASS",
+			"locktime": 102.3,
+			"pseudorange": 23392566.72,
+			"satellite_id": 6,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 6.203,
+			"channel_number": 2,
+			"doppler": -1668.55,
+			"gnss": "GLONASS",
+			"locktime": 81.30000000000001,
+			"pseudorange": 19616762.2,
+			"satellite_id": 24,
+			"signal_type": "L1CA",
+			"snr": 48.3
+		},
+		{
+			"carrier_phase": 6.422,
+			"channel_number": 2,
+			"doppler": -1668.511,
+			"gnss": "GLONASS",
+			"locktime": 74.10000000000001,
+			"pseudorange": 19616762.2,
+			"satellite_id": 24,
+			"signal_type": "P1",
+			"snr": 15.4
+		},
+		{
+			"carrier_phase": 1.4985,
+			"channel_number": 14,
+			"doppler": -4683.382000000001,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21254245.2,
+			"satellite_id": 12,
+			"signal_type": "L1CA",
+			"snr": 46.3
+		},
+		{
+			"carrier_phase": 1.5375,
+			"channel_number": 14,
+			"doppler": -4683.414,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21254245.2,
+			"satellite_id": 12,
+			"signal_type": "P1",
+			"snr": 28.1
+		},
+		{
+			"carrier_phase": 1.449,
+			"channel_number": 14,
+			"doppler": -3649.441,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21254245.2,
+			"satellite_id": 12,
+			"signal_type": "P2",
+			"snr": 28.1
+		},
+		{
+			"carrier_phase": 3.5545,
+			"channel_number": 15,
+			"doppler": -5164.919,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21412989.74,
+			"satellite_id": 5,
+			"signal_type": "L1CA",
+			"snr": 48
+		},
+		{
+			"carrier_phase": 3.5915,
+			"channel_number": 15,
+			"doppler": -5164.839,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21412989.74,
+			"satellite_id": 5,
+			"signal_type": "P1",
+			"snr": 28.4
+		},
+		{
+			"carrier_phase": 2.4275,
+			"channel_number": 15,
+			"doppler": -4024.593,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21412989.74,
+			"satellite_id": 5,
+			"signal_type": "P2",
+			"snr": 28.3
+		},
+		{
+			"carrier_phase": 0.513,
+			"channel_number": 16,
+			"doppler": 706.9300000000001,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24911179.08,
+			"satellite_id": 15,
+			"signal_type": "L1CA",
+			"snr": 46.5
+		},
+		{
+			"carrier_phase": 0.7415,
+			"channel_number": 16,
+			"doppler": 707.0120000000001,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24911179.08,
+			"satellite_id": 15,
+			"signal_type": "P1",
+			"snr": 26
+		},
+		{
+			"carrier_phase": -1.904,
+			"channel_number": 16,
+			"doppler": 550.836,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24911179.08,
+			"satellite_id": 15,
+			"signal_type": "P2",
+			"snr": 26
+		},
+		{
+			"carrier_phase": -1.319,
+			"channel_number": 17,
+			"doppler": -2256.488,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24506163.9,
+			"satellite_id": 17,
+			"signal_type": "L1CA",
+			"snr": 46.5
+		},
+		{
+			"carrier_phase": -1.0895,
+			"channel_number": 17,
+			"doppler": -2256.516,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24506163.9,
+			"satellite_id": 17,
+			"signal_type": "P1",
+			"snr": 26.3
+		},
+		{
+			"carrier_phase": -1.2695,
+			"channel_number": 17,
+			"doppler": -1758.298,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 24506163.9,
+			"satellite_id": 17,
+			"signal_type": "P2",
+			"snr": 26.2
+		},
+		{
+			"carrier_phase": 3.2705,
+			"channel_number": 18,
+			"doppler": -5541.921,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22072288.66,
+			"satellite_id": 14,
+			"signal_type": "L1CA",
+			"snr": 46.3
+		},
+		{
+			"carrier_phase": 3.501,
+			"channel_number": 18,
+			"doppler": -5541.885,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22072288.66,
+			"satellite_id": 14,
+			"signal_type": "P1",
+			"snr": 28.9
+		},
+		{
+			"carrier_phase": 1.239,
+			"channel_number": 18,
+			"doppler": -4318.34,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 22072288.66,
+			"satellite_id": 14,
+			"signal_type": "P2",
+			"snr": 28.7
+		},
+		{
+			"carrier_phase": 3.4715,
+			"channel_number": 19,
+			"doppler": -1065.023,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21055262.6,
+			"satellite_id": 9,
+			"signal_type": "L1CA",
+			"snr": 47.1
+		},
+		{
+			"carrier_phase": 3.702,
+			"channel_number": 19,
+			"doppler": -1065.039,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21055262.6,
+			"satellite_id": 9,
+			"signal_type": "P1",
+			"snr": 28.4
+		},
+		{
+			"carrier_phase": 1.356,
+			"channel_number": 19,
+			"doppler": -829.88,
+			"gnss": "GPS",
+			"locktime": 102.3,
+			"pseudorange": 21055262.6,
+			"satellite_id": 9,
+			"signal_type": "P2",
+			"snr": 28.5
+		}
+	],
+	"id": "channel_measurements",
+	"protocol": "OGRP1",
+	"timestamp": 1420066374
+}
