@@ -1,152 +1,86 @@
-OGRP
-====
+#OGRP
+<b>Open Gnss Receiver Protocol for Open Source Receiver</b>
 
-The Open Gnss Receiver Protocol
+Background 
+----------
+During the attempt to develop an open source receiver we needed a protocol for exchanging data between the components of a GNSS Receiver or in connection with external Hard or Software. The protocols which were available when we start were optimized for special cases or products, they were not open nor complete.
+So we decided to create a new one that may solve in almost any situation we/you need to transport data.
 
-Introduction
-============
+Preconditions
+-------------
+OGRP should be easy to learn, easy to read and easy to handle. It should be extendible by own needs and it should cover standard cases unambiguous. 
 
-Previous attempts to define an exchange protocol for GNSS related data
-have been proposed only by manufacturers for their own products with
-proprietary wire protocols or for limited applications, e.g. RTCM,
-RINEX, NMEA.
+early decisions
+---------------
+We decided to use JSON as underlying format. To get rid of ambiguous interpretation we decided to use 
+JSON Schema ( http://json-schema.org/documentation.html ) as definition format. 
 
-OGRP (<b>O</b>pen  <b>G</b>NSS <b>R</b>eceiver <b>P</b>rotocol) tries to be a
-protocol for many different causes in the domain of GNSS may it be
-output of raw measurements from receivers over a physical wire
-connection but also supporting RPC (remote procedure call) like
-JSON-RPC.
+The transport mechanism of data is not part of the OGRP definition. But the definition allows transportation with all common mechanisms as TCP/IP, Socket or File.
 
-OGRP is a protocol based on JSON ([RFC4627]).
-and JSON Schema ( http://json-schema.org/documentation.html )
+details of the format
+---------------------
 
-The transport mechanism is not part of the OGRP definition.
-
-JSON just define sinlge Objects. But for a continous stream of data, for example 
+JSON just define single Objects. For a continuous stream of data, for example 
 via plain TCP socket, a file, a serial line with a
-wrapping wire protocol or similar ways it ist necassary to define the "listing" of Objcts.
-As first attempt we use a line delimiter.  [NDJ](See also: http://en.wikipedia.org/wiki/Line_Delimited_JSON).
-Files containing OGRP should have the filename extension *.ogrp*.
+wrapping wire protocol or similar ways you just send the complete objects separated by a new line.
 
-OGRP is meant to be extendable and future-proof rather than optimized
-regarding performance for a specific case. The main messages are defined and some of them can be 
-extended by own properties.
-Messages that are not defined can easily defined on your own fitting into the common scheme.
-OGRP should also support complete wrapping of other message protocols in
-itself, e.g. any message used in proprietary protocols should be expressable
-by OGRP or embeddable in OGRP messages.
-Because JSON is a Textformat it is not possible to fill in non-ascii codes. And the Data is always descriped and Escaped as a single String.
-So there will always be some Problems with wrapping of other Messages. We need a special escape format for this
-This is not implemented now, but will be considered in future.
+The main messages are defined and some of them can be extended by own properties.
+For the predefined message types and message parts we use JSON-Schema draft v4 as a format to describe the properties.
+With such definitions it is easy to check own or given data on OGRP conformance.
+Messages which are not defined can easily defined on your own fitting into the common scheme.
+Please create your own JSON-Schema file to make the extension usable by other groups.
 
-To get an optimized performance we plan to develop a binary compressed represantation of the OGRP Data.
-Therefore we will decripe a gerneral process for compressing and decoding.
+future aspects
+--------------
+To get an optimized performance we plan to develop a binary compressed representation of the OGRP data.
+Therefore we will describe a general process for compressing and decoding.
 
-For the predefined Messagetypes and Messageparts we use JSON-Schema draft v4 as a format for describing the Porperties.
-With such definitions it is easily possible to check own or given data on OGRP comformance.
+State of development
+--------------------
+Currently we are working on the first official version. Till then the schema is not stable.
 
-
-Conventions used
-----------------
-
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
-"SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
-document are to be interpreted as described in [RFC2119].
-
-The underlying format used for OGRP is JSON. Consequently, terms and
-types are to be interpreted as described in section 1 of [RFC4627].
-
-
-Maturity
---------
-
-Maturity indicator: Is this an experimental, draft, stable, legacy, or
-retired specification?
-
-A: OGRP is considered in draft state.
-
-Extending the protocol / specification
---------------------------------------
+Create own extensions
+---------------------
 
 Please always extend the given schema file or create an own schema file.
-Create a testset of Data and control the schema file with a validator-tool.
+[JSON Schema](http://json-schema.org/).
 
-Consider the following:
+Create a test set of data and control the schema file with a validator-tool.
 
--   Use formal grammar: prevents arguments due to different
-    interpretations of the text.
+When creating or extending follow these rules:
 
--   Use technical explanation: semantics of each message, error
-    handling, and so on.
+-   Each message type which is used as a single OGRP object has at least 3 fields which are always needed.
+    - "id"  containing the unique messagetypename
+    - "version" in Version 1 this is always OGRP1
+    - "timestamp" that contains the time of sending the message
 
--   Add references: to other documents, protocols, and so on.
+-   For building names and declarations try to use common phrases, try to reuse phrases. 
 
--   Use list-of-structs instead of struct-of-lists.
+-   Try to get short names and declarations but they has to be clear and readable.
+    Details should be described in the "description" part.
 
--   Use explicit and unambiguous key names.
-
--   Use lower-case, underscore separated key names.
-
--   You must use the "description" fields in the schema file for all dokumentation
+-   You must use the "description" fields in the schema file for all documentation.
 
 -   Please think about all possible properties and define theme. 
     "type" and "description" is a must have.
-    always think abaut "minimum", "required" and "additionalProperties" and declare them
-
-Message specification
-=====================
-
-The Messages are specified by the JSON_Schema
-For new Schemafiles consider this:
-
-An OGRP message is composed of one JSON object. Two mandatory fields
-exist
-
-```
-msg = {
-    "protocol": protocol,
-    "id": id,
-    ...
-}
-
-protocol = "OGRP1"
-id = string ; lower-case, underscore separated id, e.g. "measurement", ...
-```
-
-The additional content in the message is dependant on the message id.
-Optional fields are allowed and has to be marked in the Schema.
-Parser may ignore them if unknown
-(according to JSON).
-
-
-
-Key naming
-----------
-
-Names of keys should be explicit and unambiguous.
-No alternative names are allowed:
-
-Representing time and date
---------------------------
-
-the general 'timestamp' holds the system_time of the sending tool. It is in seconds since 1.1.1970 0 OClock.
-It can be a float value.
-
-( to discuss )
-()
-Fields called 'timestamp' can hold times specified in UNIX time or ISO 8601. So if the JSON
-type is float it's a UNIX time referred to UTC. If the JSON type is string, it must conform
-to ISO 8601.
-)
-
-times based on GNSS Measurement are placed within the sprecial properties of the Message.
-
+    Always think about "minimum", "required" and "additionalProperties" and declare them.
 
 Usage
-=====
+-----
+To build or parse an OGRP Message you depend on the message type which ist declared in the "id". Depending on that you has to fill or read the rest of the object.  
+Optional fields are allowed and has to be marked in the schema.
+Writer don’t must fill optional fields.
 
-Applications using OGRP for input or output should define the supported messages as [JSON Schema](http://json-schema.org/).
-An example for a PVT application's minimum input data could be:
+The general 'timestamp' holds the system time of the sending tool. It is in seconds since 1.1.1970 0 O’clock.
+It can be a float value. Please have a look at the Schemafiles.
+
+Times based on GNSS Measurement are placed within the special properties of the message.
+
+Example
+-------
+You find examples in the folder "Examples"
+
+For a first look, here is an example for a PVT applications minimum input data:
 
 ```JSON
 {
@@ -388,19 +322,3 @@ An example for a PVT application's minimum input data could be:
 	"timestamp": 1420066248
 }
 ```
-Security considerations
-=======================
-
-See JSON considerations on this topic in [RFC4627].
-
-No further security mechanisms are designed into OGRP.
-
-
-References
-==========
-
- * [RFC2119]
-[RFC2119]: <http://www.ietf.org/rfc/rfc2119.txt> "RFC2119"
- * [RFC4627]
-[RFC4627]: <http://www.ietf.org/rfc/rfc4627.txt> "RFC4627"
-
